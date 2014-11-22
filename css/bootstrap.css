@@ -3662,10 +3662,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
 }
+/* 10, 15 */
 .nav > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
+}
+.social {
+  position: relative;
+  display: block;
+  padding: 1x .01px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
