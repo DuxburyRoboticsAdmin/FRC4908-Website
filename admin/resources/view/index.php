@@ -57,7 +57,6 @@ else {
                   <a href="../../../">Main Website <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="../../../team/">Our Team</a></li>
-                        <li><a href="../../../history/">History</a></li>
                         <li><a href="../../../media/">Media <span class="caret"></span></a></li>
                         <li><a href="../../../sponsors/"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
                         <li><a href="../../../blog/">Blog</a></li>
