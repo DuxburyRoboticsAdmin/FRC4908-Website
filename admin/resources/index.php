@@ -26,7 +26,7 @@
 
     <div class="container">
 
-      <form class="form-signin" role="form">
+      <form class="form-signin" role="form" action="view/">
         <center>
             <h2 class="form-signin-heading">Resource Sign In</h2>
             <h5>Contact <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Robotics Resource Password&body=YOU MUST USE YOUR SCHOOL EMAIL AND PROVE THAT YOU'RE WITH THE ROBOTICS TEAM. TEAM HEADS CAN REQUEST SPECIAL PASSWORDS HERE. ">Kyle</a> for password.</h5>

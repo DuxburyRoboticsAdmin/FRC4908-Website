@@ -3,14 +3,13 @@
 $admin = 'Admin';
 $adminPass = '12345Dog';
 
-$username = $_POST["username"];
-$password = $_POST["username"];
 
-if($usernmae = $admin && $password = $adminPass)
-    cookie(set);
-else(
+if($_POST["username"] = $admin && $_POST["password"] = $adminPass) {
+    //cookie(set);
+}
+else {
     header ('Location: ../');
-
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -71,10 +70,9 @@ else(
             </div>
           </div>
         </div>
-    <div class="container well">
-        <h1>Sorry Admin page is currently offline. </h1>
-    </div>
     <div class="container">
+        <h1 class="">Administration Pannel</h1>
+        <br>
         <div role="tabpanel">
 
           <!-- Nav tabs -->
@@ -89,10 +87,10 @@ else(
             <div role="tabpanel" class="tab-pane active" id="upload">
 
 <br>
-<form role="form" action="file.php" method="GET">
+<form role="form" action="file.php" method="POST" enctype="multipart/form-data">
   <div class="form-group">
-    <label>Resource Page to Upload To</label>
-    <select type="select" class="form-control" id="dir" >
+    <label>Page To Upload To: </label>
+    <select type="select" class="form-control" name="dir" >
         <option value="mech">Mechanical</option>
         <option value="mech/cad">&emsp;Mechanical CAD</option>
         <option value="mech/man">&emsp;Manufacturing</option>
@@ -111,12 +109,11 @@ else(
   <div class="form-group">
     <label>File to Upload</label>
     <input type="file" class="form-control" name="fileToUpload" id="fileToUpload">
+    <p class="help-block">This is case sensetive! Double check the file name before uploading! </p>
   </div>
-  <br>
   <button type="submit" class="btn btn-default" value="Upload Image" name="submit">Submit</button>
-</form>
-              <br>
-              &emsp;Note: If you select something without a tab in it, it will upload to that directory. 
+</form>     
+
             </div>
             <div role="tabpanel" class="tab-pane" id="remove">&emsp;Removing files is not necesarly working yet. Contact <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Remove Files">Kyle</a> to remove files. </div>
             <div role="tabpanel" class="tab-pane" id="settings">Changing password: </div>
