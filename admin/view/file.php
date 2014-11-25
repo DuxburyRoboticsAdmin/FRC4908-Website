@@ -106,12 +106,12 @@ if(isset($doExists)) {
 if(isset($doNoUpload)) {
     header('Location: ./?noUpload=1');
 }
-if(isset($doNotUploadFinal)) {
-    header('Location: ./?final=1');
-}
-if(isset($doNoSubmit)) {
-    header('location: ./?nosubmit=1');
-}
+//if(isset($doNotUploadFinal)) {
+//    header('Location: ./?final=1');
+//}
+//if(isset($doNoSubmit)) {
+//    header('location: ./?nosubmit=1');
+//}
 
 
 ?>

@@ -6,11 +6,12 @@ $adminPass = '12345Dog';
 $username = $_POST["username"];
 $password = $_POST["username"];
 
-if($usernmae = $admin && $password = $adminPass)
+if($usernmae == $admin && $password == $adminPass) {
     cookie(set);
-else(
+}
+else {
     header ('Location: ../');
-
+}
 ?>
 <!-- for use with OUSTIDE the root yet only 1 folder in -->
 <!DOCTYPE html>
