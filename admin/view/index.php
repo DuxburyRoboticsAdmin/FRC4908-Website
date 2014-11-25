@@ -13,7 +13,7 @@ if($_POST["username"] = $admin && $_POST["password"] = $adminPass) {
     //cookie(set);
 }
 else {
-    header ('Location: http://'.$host.$uri.'/'.$extra); 
+    header ('Location: http://$host$uri/$extra');
 }
 ?>
 <!DOCTYPE html>
@@ -83,7 +83,7 @@ else {
 
 if(isset($_GET["upload"])) {
     //header('Location: ./?upload=1');
-	echo '<div class="alert alert-success" role="alert"><center><strong>Well done!</strong> Your file is now uploaded! </center></div>';
+	echo '<div class="alert alert-success" role="alert"><center><strong>Well done!</strong> Your file is now uploaded! <a href="'.$_GET["dir"].'">View your file</a></center></div>';
 }
 if(isset($_GET["noUpload"])) {
     //header('Location: ./?noUpload=1');
@@ -110,7 +110,7 @@ if(isset($_GET["final"])) {
           <ul class="nav nav-tabs" role="tablist">
             <li role="presentation" class="active"><a href="#upload" aria-controls="home" role="tab" data-toggle="tab">Upload Files</a></li>
             <li role="presentation"><a href="#remove" aria-controls="profile" role="tab" data-toggle="tab">Remove files</a></li>
-            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+            <!--<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>-->
           </ul>
 
           <!-- Tab panes -->
@@ -146,7 +146,7 @@ if(isset($_GET["final"])) {
 </form>     
 
             </div>
-            <div role="tabpanel" class="tab-pane" id="remove">&emsp;Removing files is not necesarly working yet. Contact <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Remove Files">Kyle</a> to remove files. </div>
+            <div role="tabpanel" class="tab-pane" id="remove">&emsp;Removing files is not working yet. Contact <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Remove Files">Kyle</a> to remove files. </div>
             <div role="tabpanel" class="tab-pane" id="settings">Changing password: </div>
           </div>
 

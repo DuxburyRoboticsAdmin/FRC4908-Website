@@ -4,55 +4,55 @@ $dir = $_POST["dir"]; //Is working :D
 $dirPrefix = "../resources/view/"; //will add this to the start of the file location.
 $dirFinalSuffix = "/"; //will add this to the end of the file location 
 
-if($_POST["dir"] = "mech") {
+if($_POST["dir"] == "mech") {
     $dirSuffix = "mechanical";
 } else {} 
 
-if($_POST["dir"] = "mech/cad") {
+if($_POST["dir"] == "mech/cad") {
     $dirSuffix = "mechanical/CAD";
 }
 
-if($_POST["dir"] = "mech/man") {
+if($_POST["dir"] == "mech/man") {
     $dirSuffix = "mechanical/manufacturing";
 }
 
-if($_POST["dir"] = "mech/str") {
+if($_POST["dir"] == "mech/str") {
     $dirSuffix = "mechanical/strategy";
 }
 
-if($_POST["dir"] = "elc") {
+if($_POST["dir"] == "elc") {
     $dirSuffix = "electrical";
 }
 
-if($_POST["dir"] = "elc/cad") {
+if($_POST["dir"] == "elc/cad") {
     $dirSuffix = "electrical/CAD";
 }
 
-if($_POST["dir"] = "elc/prg") {
+if($_POST["dir"] == "elc/prg") {
     $dirSuffix = "electrical/programing";
 }
 
-if($_POST["dir"] = "elc/asm") {
+if($_POST["dir"] == "elc/asm") {
     $dirSuffix = "electrical/assembly";
 }
 
-if($_POST["dir"] = "biz") {
+if($_POST["dir"] == "biz") {
     $dirSuffix = "buissness";
 }
 
-if($_POST["dir"] = "biz/") {
+if($_POST["dir"] == "biz/") {
     $dirSuffix = "buissness/sponsorship";
 }
 
-if($_POST["dir"] = "biz/fnd") {
+if($_POST["dir"] == "biz/fnd") {
     $dirSuffix = "buissness/fundrasing";
 }
 
-if($_POST["dir"] = "biz/sme") {
+if($_POST["dir"] == "biz/sme") {
     $dirSuffix = "buissness/socialmedia";
 }
 
-if($_POST["dir"] = "doc") {
+if($_POST["dir"] == "doc") {
     $dirSuffix = "documents";
 }
 
@@ -98,7 +98,7 @@ if ($uploadOk == 0) {
 
 
 if(isset($doUpload)) {
-    header('Location: ./?upload=1&dir='.$dir);
+    header('Location: ./?upload=1&dir='.$target_dir);
 }
 if(isset($doExists)) {
     header('Location: ./?exists=1');
