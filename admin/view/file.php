@@ -6,53 +6,53 @@ $dirFinalSuffix = "/"; //will add this to the end of the file location
 
 if($_POST["dir"] = "mech") {
     $dirSuffix = "mechanical";
-}
+} else {} 
 
 if($_POST["dir"] = "mech/cad") {
     $dirSuffix = "mechanical/CAD";
 }
 
-if($dir = "mech/man") {
+if($_POST["dir"] = "mech/man") {
     $dirSuffix = "mechanical/manufacturing";
 }
 
-if($dir = "mech/str") {
+if($_POST["dir"] = "mech/str") {
     $dirSuffix = "mechanical/strategy";
 }
 
-if($dir = "elc") {
+if($_POST["dir"] = "elc") {
     $dirSuffix = "electrical";
 }
 
-if($dir = "elc/cad") {
+if($_POST["dir"] = "elc/cad") {
     $dirSuffix = "electrical/CAD";
 }
 
-if($dir = "elc/prg") {
+if($_POST["dir"] = "elc/prg") {
     $dirSuffix = "electrical/programing";
 }
 
-if($dir = "elc/asm") {
+if($_POST["dir"] = "elc/asm") {
     $dirSuffix = "electrical/assembly";
 }
 
-if($dir = "biz") {
+if($_POST["dir"] = "biz") {
     $dirSuffix = "buissness";
 }
 
-if($dir = "biz/") {
+if($_POST["dir"] = "biz/") {
     $dirSuffix = "buissness/sponsorship";
 }
 
-if($dir = "biz/fnd") {
+if($_POST["dir"] = "biz/fnd") {
     $dirSuffix = "buissness/fundrasing";
 }
 
-if($dir = "biz/sme") {
+if($_POST["dir"] = "biz/sme") {
     $dirSuffix = "buissness/socialmedia";
 }
 
-if($dir = "doc") {
+if($_POST["dir"] = "doc") {
     $dirSuffix = "documents";
 }
 

@@ -13,7 +13,7 @@ if($_POST["username"] = $admin && $_POST["password"] = $adminPass) {
     //cookie(set);
 }
 else {
-    header ('Location: http://$host$uri/$extra');
+    header ('Location: http://'.$host.$uri.'/'.$extra); 
 }
 ?>
 <!DOCTYPE html>
