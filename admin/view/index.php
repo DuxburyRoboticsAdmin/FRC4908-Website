@@ -1,5 +1,10 @@
 <?php
 
+$host  = $_SERVER['HTTP_HOST'];
+$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+$extra = '../';
+
+
 $admin = 'Admin';
 $adminPass = '12345Dog';
 
@@ -8,7 +13,7 @@ if($_POST["username"] = $admin && $_POST["password"] = $adminPass) {
     //cookie(set);
 }
 else {
-    header ('Location: ../');
+    header ('Location: http://$host$uri/$extra');
 }
 ?>
 <!DOCTYPE html>
@@ -73,6 +78,32 @@ else {
     <div class="container">
         <h1 class="">Administration Pannel</h1>
         <br>
+
+<?php
+
+if(isset($_GET["upload"])) {
+    //header('Location: ./?upload=1');
+	echo '<div class="alert alert-success" role="alert"><center><strong>Well done!</strong> Your file is now uploaded! </center></div>';
+}
+if(isset($_GET["noUpload"])) {
+    //header('Location: ./?noUpload=1');
+	echo '<div class="alert alert-danger" role="alert"><center><strong>Warning!</strong> Your file was not uploaded. </center></div>';
+}
+if(isset($_GET["exists"])) {
+    //header('Location: ./?exists=1');
+	echo '<div class="alert alert-danger" role="alert"><center><strong>Warning!</strong> Your file already exists! Contact <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Remove File">Kyle</a> to remove the file. </center></div>';
+}
+if(isset($_GET["nosubmit"])) {
+    //header('location: ./?nosubmit=1');
+	echo '<div class="alert alert-danger" role="alert"><center><strong>Warning!</strong> Your never click submit? Some bad happened. I\'m sorry. Try again. </center></div>';
+}
+if(isset($_GET["final"])) {
+    //header('Location: ./?final=1');
+	echo '<div class="alert alert-danger" role="alert"><center><strong>Warning!</strong> Your file was not uploaded. </center></div>';
+}
+
+?>
+		<br>
         <div role="tabpanel">
 
           <!-- Nav tabs -->

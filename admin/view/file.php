@@ -4,11 +4,11 @@ $dir = $_POST["dir"]; //Is working :D
 $dirPrefix = "../resources/view/"; //will add this to the start of the file location.
 $dirFinalSuffix = "/"; //will add this to the end of the file location 
 
-if($dir = "mech") {
+if($_POST["dir"] = "mech") {
     $dirSuffix = "mechanical";
 }
 
-if($dir = "mech/cad") {
+if($_POST["dir"] = "mech/cad") {
     $dirSuffix = "mechanical/CAD";
 }
 
@@ -65,7 +65,6 @@ $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 
-// Check if image file is a actual image or fake image
 if(isset($_POST["submit"])) {
         $uploadOk = 1;
     } else {
@@ -78,7 +77,7 @@ if(isset($_POST["submit"])) {
 if (file_exists($target_file)) {
     echo "Sorry, file already exists.";
     $uploadOk = 0;
-    $doExists
+    $doExists = true;
 }
 
 // Check if $uploadOk is set to 0 by an error
@@ -99,20 +98,21 @@ if ($uploadOk == 0) {
 
 
 if(isset($doUpload)) {
-    header('Location: ./?upload=1');
-}
-if(isset($doNotUploadFinal)) {
-    header('Location: ./?final=1');
-}
-if(isset($doNoUpload)) {
-    header('Location: ./?noUpload=1');
+    header('Location: ./?upload=1&dir='.$dir);
 }
 if(isset($doExists)) {
     header('Location: ./?exists=1');
 }
+if(isset($doNoUpload)) {
+    header('Location: ./?noUpload=1');
+}
+if(isset($doNotUploadFinal)) {
+    header('Location: ./?final=1');
+}
 if(isset($doNoSubmit)) {
     header('location: ./?nosubmit=1');
 }
+
 
 ?>
 
