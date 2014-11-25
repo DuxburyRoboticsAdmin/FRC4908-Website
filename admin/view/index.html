@@ -12,7 +12,6 @@ else(
     header ('Location: ../');
 
 ?>
-<!-- for use with OUSTIDE the root yet only 1 folder in -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,14 +66,39 @@ else(
                     </ul>
                 </li>
                 <li class="active"><a href="./">Admin</a></li>
-                <li><a href="../resources/">Resources</a><li>
+                  <li><a href="../resources/">Resources</a></li>
               </ul>
             </div>
           </div>
         </div>
     <div class="container well">
         <h1>Sorry Admin page is currently offline. </h1>
-    </div>  
+    </div>
+    <div class="container">
+        <div role="tabpanel">
+
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#upload" aria-controls="home" role="tab" data-toggle="tab">Upload Files</a></li>
+            <li role="presentation"><a href="#remove" aria-controls="profile" role="tab" data-toggle="tab">Remove files</a></li>
+            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="upload">Uploading Script
+                <!-- Place PhP/HTML Form for file upload here. --> 
+              
+            </div>
+            <div role="tabpanel" class="tab-pane" id="remove">&emsp;Removing files is not necesarly working yet. Contact <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Remove Files">Kyle</a> to remove files. </div>
+            <div role="tabpanel" class="tab-pane" id="settings">Changing password: </div>
+          </div>
+
+</div>
+        
+        
+        
+    </div>
       
     <div class="container"> 
      <hr>
@@ -92,6 +116,7 @@ else(
     <script src="../../js/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="../../js/jquery.html5uploader.min.js"></script>
       
     </body>
   </html>
