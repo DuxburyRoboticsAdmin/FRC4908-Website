@@ -1,16 +1,9 @@
 <?php
-
-$admin = 'Admin';
-$adminPass = '12345Dog';
-
-$username = $_POST["username"];
-$password = $_POST["username"];
-
-if($usernmae == $admin && $password == $adminPass) {
-    cookie(set);
+if($_POST["username"] == 'admin' && $_POST["password"] == 'DuxRobo') {
+    //cookie(set);
 }
 else {
-    header ('Location: ../');
+    //header ('Location: ../');
 }
 ?>
 <!-- for use with OUSTIDE the root yet only 1 folder in -->

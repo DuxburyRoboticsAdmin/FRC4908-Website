@@ -1,19 +1,9 @@
 <?php
-
-$host  = $_SERVER['HTTP_HOST'];
-$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
-$extra = '../';
-
-
-$admin = 'Admin';
-$adminPass = '12345Dog';
-
-
-if($_POST["username"] = $admin && $_POST["password"] = $adminPass) {
+if($_POST["username"] == 'admin' && $_POST["password"] == 'DuxRobo') {
     //cookie(set);
 }
 else {
-    header ('Location: http://$host$uri/$extra');
+    header ('Location: ../');
 }
 ?>
 <!DOCTYPE html>

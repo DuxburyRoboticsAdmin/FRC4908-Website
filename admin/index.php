@@ -33,9 +33,9 @@
         <div class="alert alert-danger" role="alert"><center><strong>Warning!</strong> Use Google Chrome</center></div>
         </center>
         <label for="inputEmail" class="sr-only">Username</label>
-        <input type="username" id="username" class="form-control" placeholder="Username" required="" autofocus="">
+        <input type="username" name="username" class="form-control" placeholder="Username" required="" autofocus="">
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="password" class="form-control" placeholder="Password" required="">
+        <input type="password" name="password" class="form-control" placeholder="Password" required="">
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
         <br>
         &emsp;<a href="../" title="Are you lost?"> ← Head back to the main website</a> 
