@@ -30,7 +30,6 @@
         <center>
             <h2 class="form-signin-heading">Admin Sign In</h2>
             <h5>Looking for <a href="resources/">Resources</a>?</h5>
-        <div class="alert alert-danger" role="alert"><center><strong>Warning!</strong> Use Google Chrome</center></div>
         </center>
         <label for="inputEmail" class="sr-only">Username</label>
         <input type="username" name="username" class="form-control" placeholder="Username" required="" autofocus="">

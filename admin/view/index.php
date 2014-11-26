@@ -65,7 +65,7 @@ else {
           </div>
         </div>
     <div class="container">
-        <h1 class="">Administration Pannel</h1>
+        <h1 class="">Administration Panel</h1>
         <br>
 
 <?php
@@ -99,6 +99,7 @@ if(isset($_GET["final"])) {
           <ul class="nav nav-tabs" role="tablist">
             <li role="presentation" class="active"><a href="#upload" aria-controls="home" role="tab" data-toggle="tab">Upload Files</a></li>
             <li role="presentation"><a href="#remove" aria-controls="profile" role="tab" data-toggle="tab">Remove files</a></li>
+            <li roll="presentation"><a href="#talk" aria-controls="talk" roll="tab" data-toggle="tab">Admin Talk</a></li>
             <!--<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>-->
           </ul>
 
@@ -136,7 +137,23 @@ if(isset($_GET["final"])) {
 
             </div>
             <div role="tabpanel" class="tab-pane" id="remove">&emsp;Removing files is not working yet. Contact <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Remove Files">Kyle</a> to remove files. </div>
-            <div role="tabpanel" class="tab-pane" id="settings">Changing password: </div>
+            <div role="tabpanel" class="tab-pane" id="talk">
+<div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'DHSRobotics'; // required: replace example with your forum shortname
+        var disqus_identifier = 'Admin';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+              
+            </div>
           </div>
 
         </div>

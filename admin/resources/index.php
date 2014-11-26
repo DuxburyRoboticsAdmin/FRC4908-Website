@@ -29,8 +29,7 @@
       <form class="form-signin" role="form" action="view/" method="POST">
         <center>
             <h2 class="form-signin-heading">Resource Sign In</h2>
-            <h5>Contact <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Robotics Resource Password&body=YOU MUST USE YOUR SCHOOL EMAIL AND PROVE THAT YOU'RE WITH THE ROBOTICS TEAM.">Kyle</a> for password.</h5>
-            <div class="alert alert-danger" role="alert"><center><strong>Warning!</strong> Use Google Chrome</center></div>
+            <h5><a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Robotics Resource Password&body=YOU MUST USE YOUR SCHOOL EMAIL AND PROVE THAT YOU'RE WITH THE ROBOTICS TEAM.">Username/password help</a></h5>
         </center>
         <label for="inputEmail" class="sr-only">Username</label>
         <input type="username" name="username" class="form-control" placeholder="Username" required="" autofocus="">
