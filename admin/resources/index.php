@@ -30,6 +30,28 @@
         <center>
             <h2 class="form-signin-heading">Resource Sign In</h2>
             <h5><a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Robotics Resource Password&body=YOU MUST USE YOUR SCHOOL EMAIL AND PROVE THAT YOU'RE WITH THE ROBOTICS TEAM.">Username/password help</a></h5>
+            
+<?php
+
+if(isset($_GET["logout"])) {
+    //header('Location: ./?upload=1');
+	echo '<div class="alert alert-success" role="alert"><center><strong>You\'re now logged out! </strong></center></div>';
+}
+if(isset($_GET["DB"])) {
+    //header('Location: ./?noUpload=1');
+	echo '<div class="alert alert-danger" role="alert"><center><strong>OH NO!</strong> We had a problem :( Tell <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=DB Down">Kyle</a> please! </center></div>';
+}
+if(isset($_GET["failed"])) {
+    //header('Location: ./?exists=1');
+	echo '<div class="alert alert-danger" role="alert"><center><strong>Warning!</strong> Something went wrong. Tell <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Failure">Kyle</a> please!</center></div>';
+}
+if(isset($_GET["check"])) {
+    //header('location: ./?nosubmit=1');
+	echo '<div class="alert alert-danger" role="alert"><center><strong>OH NO!</strong> Please check your username and password. Both are case sensetive! </center></div>';
+}
+
+?>
+            
         </center>
         <label for="inputEmail" class="sr-only">Username</label>
         <input type="username" name="phpro_username" class="form-control" placeholder="Username" required="" autofocus="">

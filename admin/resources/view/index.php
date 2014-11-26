@@ -119,11 +119,30 @@ else
                 <li><a href="../../">Admin</a></li>
                 <li class="active"><a href="./">Resources</a><li>
               </ul>
+              <ul class="nav navbar-nav navbar-right navbar-form">
+                <div class="form-group">
+                  <li><a href="../../logout.php"><button href="../logout.php" class="btn btn-danger btn-sm">LOGOUT</button></a></li>  
+                </div>
+              </ul>
             </div>
           </div>
         </div>
-    <div class="container well">
-     <div id="disqus_thread"></div>
+<div class="container">
+<div role="container tabpanel">
+
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#view" aria-controls="home" role="tab" data-toggle="tab">View Files</a></li>
+            <li roll="presentation"><a href="#talk" aria-controls="talk" roll="tab" data-toggle="tab">Talk</a></li>
+            <!--<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>-->
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+    
+            <div role="tabpanel" class="tab-pane" id="view"><br>&emsp;Sorry, viewing files is still offline. </div>
+            <div role="tabpanel" class="tab-pane" id="talk">
+<div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'DHSRobotics'; // required: replace example with your forum shortname
@@ -137,8 +156,12 @@ else
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
-    </div>  
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
       
     <div class="container"> 
      <hr>

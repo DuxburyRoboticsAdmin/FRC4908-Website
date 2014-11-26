@@ -101,7 +101,7 @@ else
               <a class="navbar-brand" href="./"><span class="glyphicon glyphicon-dashboard"></span> Administration </a>
             </div>
             <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
+              <ul class="nav navbar-nav navbar-left">
                 <li class="dropdown">
                   <a href="../../">Main Website <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
@@ -117,6 +117,11 @@ else
                 </li>
                 <li class="active"><a href="./">Admin</a></li>
                   <li><a href="../resources/">Resources</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right navbar-form">
+                  <div class="form-group">
+                    <li><a href="../logout.php"><button href="../logout.php" class="btn btn-danger btn-sm">LOGOUT</button></a></li>  
+                  </div>
               </ul>
             </div>
           </div>

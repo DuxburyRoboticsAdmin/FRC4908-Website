@@ -8,23 +8,27 @@ session_start();
 if(isset( $_SESSION['user_id'] ))
 {
     $message = 'Users is already logged in';
+    header('Location view/');
 }
 /*** check that both the username, password have been submitted ***/
 if(!isset( $_POST['phpro_username'], $_POST['phpro_password']))
 {
     $message = 'Please enter a valid username and password';
+    header('Location ../admin/?check=1');
 }
 /*** check the username has only alpha numeric characters ***/
 elseif (ctype_alnum($_POST['phpro_username']) != true)
 {
     /*** if there is no match ***/
     $message = "Username must be alpha numeric";
+    header('Location ../admin/?check=1');
 }
 /*** check the password has only alpha numeric characters ***/
 elseif (ctype_alnum($_POST['phpro_password']) != true)
 {
         /*** if there is no match ***/
         $message = "Password must be alpha numeric";
+        header('Location ../admin/?check=1');
 }
 else
 {
@@ -73,6 +77,7 @@ else
         if($user_id == false)
         {
                 $message = 'Login Failed';
+                header('Location ../admin/?failed=1');
         }
         /*** if we do have a result, all is well ***/
         else
@@ -92,6 +97,7 @@ else
     {
         /*** if we are here, something has gone wrong with the database ***/
         $message = 'We are unable to process your request. Please try again later"';
+        header('Location ../admin/?DB=1');
     }
 }
 echo $message;
