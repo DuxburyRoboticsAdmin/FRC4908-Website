@@ -26,15 +26,15 @@
 
     <div class="container">
 
-      <form class="form-signin" role="form" action="view/" method="post">
+      <form class="form-signin" role="form" action="login.php" method="post">
         <center>
             <h2 class="form-signin-heading">Admin Sign In</h2>
             <h5>Looking for <a href="resources/">Resources</a>?</h5>
         </center>
         <label for="inputEmail" class="sr-only">Username</label>
-        <input type="username" name="username" class="form-control" placeholder="Username" required="" autofocus="">
+        <input type="username" name="phpro_username" class="form-control" placeholder="Username" required="" autofocus="">
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" name="password" class="form-control" placeholder="Password" required="">
+        <input type="password" name="phpro_password" class="form-control" placeholder="Password" required="">
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
         <br>
         &emsp;<a href="../" title="Are you lost?"> ← Head back to the main website</a> 

@@ -1,10 +1,67 @@
 <?php
-if($_POST["username"] == 'admin' && $_POST["password"] == 'DuxRobo') {
-    //cookie(set);
+
+/*** begin the session ***/
+session_start();
+
+if(!isset($_SESSION['user_id']))
+{
+    header('Location: ../?NoLog=1');
 }
-else {
-    header ('Location: ../');
+else
+{
+    try
+    {
+        /*** connect to database ***/
+        /*** mysql hostname ***/
+        $mysql_hostname = 'localhost';
+
+        /*** mysql username ***/
+        $mysql_username = 'root';
+
+        /*** mysql password ***/
+        $mysql_password = '';
+
+        /*** database name ***/
+        $mysql_dbname = 'DuxburyRobotics';
+
+
+        /*** select the users name from the database ***/
+        $dbh = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
+        /*** $message = a message saying we have connected ***/
+
+        /*** set the error mode to excptions ***/
+        $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        /*** prepare the insert ***/
+        $stmt = $dbh->prepare("SELECT phpro_username FROM resources 
+        WHERE phpro_user_id = :phpro_user_id");
+
+        /*** bind the parameters ***/
+        $stmt->bindParam(':phpro_user_id', $_SESSION['user_id'], PDO::PARAM_INT);
+
+        /*** execute the prepared statement ***/
+        $stmt->execute();
+
+        /*** check for a result ***/
+        $phpro_username = $stmt->fetchColumn();
+
+        /*** if we have no something is wrong ***/
+        if($phpro_username == false)
+        {
+            header('Location: ../?NoLog=1');
+        }
+        else
+        {
+            $message = 'Welcome '.$phpro_username;
+        }
+    }
+    catch (Exception $e)
+    {
+        /*** if we are here, something is wrong in the database ***/
+        header('Location: ../?DBProblem=1');
+    }
 }
+
 ?>
 <!-- for use with OUSTIDE the root yet only 1 folder in -->
 <!DOCTYPE html>

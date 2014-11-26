@@ -26,15 +26,15 @@
 
     <div class="container">
 
-      <form class="form-signin" role="form" action="view/" method="POST">
+      <form class="form-signin" role="form" action="login.php" method="POST">
         <center>
             <h2 class="form-signin-heading">Resource Sign In</h2>
             <h5><a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Robotics Resource Password&body=YOU MUST USE YOUR SCHOOL EMAIL AND PROVE THAT YOU'RE WITH THE ROBOTICS TEAM.">Username/password help</a></h5>
         </center>
         <label for="inputEmail" class="sr-only">Username</label>
-        <input type="username" name="username" class="form-control" placeholder="Username" required="" autofocus="">
+        <input type="username" name="phpro_username" class="form-control" placeholder="Username" required="" autofocus="">
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" name="password" class="form-control" placeholder="Password" required="">
+        <input type="password" name="phpro_password" class="form-control" placeholder="Password" required="">
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
         <br>
         &emsp;<a href="../../" title="Are you lost?"> ← Head back to the main website</a> 
