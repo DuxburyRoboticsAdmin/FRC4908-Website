@@ -58,7 +58,7 @@ else
     catch (Exception $e)
     {
         /*** if we are here, something is wrong in the database ***/
-        header('Location: ../?DBProblem=1');
+        header('Location: ../?DB=1');
     }
 }
 
@@ -203,7 +203,7 @@ if(isset($_GET["final"])) {
 <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'DHSRobotics'; // required: replace example with your forum shortname
+        var disqus_shortname = 'dhsroboticsadmin'; // required: replace example with your forum shortname
         var disqus_identifier = 'Admin';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */

@@ -35,7 +35,7 @@
 
 if(isset($_GET["logout"])) {
     //header('Location: ./?upload=1');
-	echo '<div class="alert alert-success" role="alert"><center><strong>You\'re now logged out! </strong></center></div>';
+	echo '<div class="alert alert-success" role="alert"><center><strong>You\'re now logged out. </strong></center></div>';
 }
 if(isset($_GET["DB"])) {
     //header('Location: ./?noUpload=1');
@@ -43,11 +43,15 @@ if(isset($_GET["DB"])) {
 }
 if(isset($_GET["failed"])) {
     //header('Location: ./?exists=1');
-	echo '<div class="alert alert-danger" role="alert"><center><strong>Warning!</strong> Something went wrong. Tell <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Failure">Kyle</a> please!</center></div>';
+	echo '<div class="alert alert-danger" role="alert"><center><strong>OH NO!</strong> Please check your username and password. Both are case sensetive and try again. Tell <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Failure">Kyle</a> if you have more problems.</center></div>';
 }
 if(isset($_GET["check"])) {
     //header('location: ./?nosubmit=1');
 	echo '<div class="alert alert-danger" role="alert"><center><strong>OH NO!</strong> Please check your username and password. Both are case sensetive! </center></div>';
+}
+if(isset($_GET["NoLog"])) {
+    //header('location: ./?nosubmit=1');
+	echo '<div class="alert alert-info" role="alert"><center><strong>Woops!</strong> Please login to preform this function! </center></div>';
 }
 
 ?>

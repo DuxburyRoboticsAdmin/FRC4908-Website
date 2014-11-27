@@ -33,8 +33,7 @@ else
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         /*** prepare the insert ***/
-        $stmt = $dbh->prepare("SELECT phpro_username FROM resources 
-        WHERE phpro_user_id = :phpro_user_id");
+        $stmt = $dbh->prepare("SELECT phpro_username FROM resources WHERE phpro_user_id = :phpro_user_id");
 
         /*** bind the parameters ***/
         $stmt->bindParam(':phpro_user_id', $_SESSION['user_id'], PDO::PARAM_INT);
@@ -58,7 +57,7 @@ else
     catch (Exception $e)
     {
         /*** if we are here, something is wrong in the database ***/
-        header('Location: ../?DBProblem=1');
+        header('Location: ../?DB=1');
     }
 }
 
@@ -132,16 +131,27 @@ else
 
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#view" aria-controls="home" role="tab" data-toggle="tab">View Files</a></li>
-            <li roll="presentation"><a href="#talk" aria-controls="talk" roll="tab" data-toggle="tab">Talk</a></li>
+            <li role="presentation"><a href="#view" aria-controls="home" role="tab" data-toggle="tab">View Files <span class="label label-info">Beta</span></a></li>
+            <li roll="presentation" class="active"><a href="#talk" aria-controls="talk" roll="tab" data-toggle="tab">Global Talk</a></li>
             <!--<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>-->
           </ul>
 
           <!-- Tab panes -->
           <div class="tab-content">
     
-            <div role="tabpanel" class="tab-pane" id="view"><br>&emsp;Sorry, viewing files is still offline. </div>
-            <div role="tabpanel" class="tab-pane" id="talk">
+            <div role="tabpanel" class="tab-pane" id="view">
+                
+                <br>Viewing files is currently in <span class="label label-info">Beta</span><br>
+                <br>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="buissness/">Business</a></li>
+                    <li class="list-group-item"><a href="electrical/">Electrical/Programing</a></li>
+                    <li class="list-group-item"><a href="mechanical/">Mechanical</a></li>
+                    <li class="list-group-item"><a href="documents/">Documents</a></li>
+                </ul>
+              
+              </div>
+              <div role="tabpanel" class="tab-pane" id="talk">
 <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
