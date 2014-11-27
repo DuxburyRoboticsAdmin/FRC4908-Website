@@ -151,7 +151,7 @@ else
                 </ul>
               
               </div>
-              <div role="tabpanel" class="tab-pane" id="talk">
+              <div role="tabpanel" class="tab-pane active" id="talk">
 <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

@@ -132,7 +132,6 @@ else
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
             <li role="presentation" class="active"><a href="#view" aria-controls="home" role="tab" data-toggle="tab">View Files <span class="label label-info">Beta</span></a></li>
-            <li roll="presentation"><a href="#talk" aria-controls="talk" roll="tab" data-toggle="tab">Business  Talk</a></li>
             <!--<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>-->
           </ul>
 
@@ -155,68 +154,14 @@ error_reporting(0);
        }
   closedir($handle);
   }    
- if ($SMhandle = opendir('./socialmedia')) {
-   while (false !== ($SMfile = readdir($SMhandle)))
-      {
-          if ($SMfile != "." && $SMfile != ".." && $SMfile != ".DS_Store" && $SMfile != "fundrasing" && $SMfile != "socialmedia" && $SMfile != "sponsorship" && $SMfile != "index.php" )
-	  {
-          	$SMthelist .= '<li class="list-group-item">&emsp;&emsp;<a href="socialmedia/'.$SMfile.'">'.$SMfile.'</a></li>';
-          }
-       }
-  closedir($SMhandle);
-  } 
- if ($FMhandle = opendir('./fundrasing')) {
-   while (false !== ($FMfile = readdir($FMhandle)))
-      {
-          if ($FMfile != "." && $FMfile != ".." && $FMfile != ".DS_Store" && $FMfile != "index.php" )
-	  {
-          	$FMthelist .= '<li class="list-group-item">&emsp;&emsp;<a href="fundrasing/'.$FMfile.'">'.$FMfile.'</a></li>';
-          }
-       }
-  closedir($FMhandle);
-  } 
- if ($SPhandle = opendir('./sponsorship')) {
-   while (false !== ($SPfile = readdir($SPhandle)))
-      {
-          if ($SPfile != "." && $SPfile != ".." && $SPfile != ".DS_Store" && $SPfile != "index.php" )
-	  {
-          	$SPthelist .= '<li class="list-group-item">&emsp;&emsp;<a href="sponsorship/'.$SPfile.'">'.$SPfile.'</a></li>';
-          }
-       }
-  closedir($SPhandle);
-  } 
 ?>
                 <ul class="list-group">
-                    <li class="list-group-item">Buissness</li>
+                    <li class="list-group-item">Documents</li>
                     <?php echo $thelist; ?>
-                    <li class="list-group-item">&emsp;SocialMedia</li>
-                    <?php echo $SMthelist; ?>
-                    <li class="list-group-item">&emsp;Fundrasing</li>
-                    <?php echo $FMthelist; ?>
-                    <li class="list-group-item">&emsp;Sponsorship</li>
-                    <?php echo $SPthelist; ?>
                 </ul>
               
               </div>
-              <div role="tabpanel" class="tab-pane" id="talk">
-<div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'DHSRobotics'; // required: replace example with your forum shortname
-        var disqus_identifier = 'Business';
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-              
-            </div>
           </div>
-
         </div>
       </div>
       

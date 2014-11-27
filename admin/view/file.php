@@ -6,54 +6,67 @@ $dirFinalSuffix = "/"; //will add this to the end of the file location
 
 if($_POST["dir"] == "mech") {
     $dirSuffix = "mechanical";
+    $view = "mechanical";
 } else {} 
 
 if($_POST["dir"] == "mech/cad") {
     $dirSuffix = "mechanical/CAD";
+    $view = "mechanical";
 }
 
 if($_POST["dir"] == "mech/man") {
     $dirSuffix = "mechanical/manufacturing";
+    $view = "mechanical";
 }
 
 if($_POST["dir"] == "mech/str") {
     $dirSuffix = "mechanical/strategy";
+    $view = "mechanical";
 }
 
 if($_POST["dir"] == "elc") {
     $dirSuffix = "electrical";
+    $view = "electrical";
 }
 
 if($_POST["dir"] == "elc/cad") {
     $dirSuffix = "electrical/CAD";
+    $view = "electrical";
 }
 
 if($_POST["dir"] == "elc/prg") {
     $dirSuffix = "electrical/programing";
+    $view = "electrical";
 }
 
 if($_POST["dir"] == "elc/asm") {
     $dirSuffix = "electrical/assembly";
+    $view = "electrical";
 }
 
 if($_POST["dir"] == "biz") {
     $dirSuffix = "buissness";
+    $view = "buissness";
 }
 
 if($_POST["dir"] == "biz/") {
     $dirSuffix = "buissness/sponsorship";
+    $view = "buissness";
 }
 
 if($_POST["dir"] == "biz/fnd") {
     $dirSuffix = "buissness/fundrasing";
+    $view = "buissness";
 }
 
 if($_POST["dir"] == "biz/sme") {
     $dirSuffix = "buissness/socialmedia";
+    $view = "buissness";
 }
 
 if($_POST["dir"] == "doc") {
     $dirSuffix = "documents";
+    $view = "documents";
 }
 
 $target_dir = $dirPrefix.$dirSuffix.$dirFinalSuffix;
@@ -70,7 +83,7 @@ if(isset($_POST["submit"])) {
     } else {
         echo "You did not click submit";
         $uploadOk = 0;
-        $doNoSubmit = true;
+        $doNoUpload = true;
     }
 
 // Check if file already exists
@@ -92,13 +105,13 @@ if ($uploadOk == 0) {
         $doUpload = true;
     } else {
         echo "Sorry, there was an error uploading your file.";
-        $doNoUploadFinal = true;
+        $doNoUpload = true;
     }
 }
 
 
 if(isset($doUpload)) {
-    header('Location: ./?upload=1&dir='.$target_dir);
+    header('Location: ./?upload=1&dir='.$dirPrefix.$view.'/');
 }
 if(isset($doExists)) {
     header('Location: ./?exists=1');

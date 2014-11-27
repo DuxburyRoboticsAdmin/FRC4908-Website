@@ -132,7 +132,7 @@ else
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
             <li role="presentation" class="active"><a href="#view" aria-controls="home" role="tab" data-toggle="tab">View Files <span class="label label-info">Beta</span></a></li>
-            <li roll="presentation"><a href="#talk" aria-controls="talk" roll="tab" data-toggle="tab">Business  Talk</a></li>
+            <li roll="presentation"><a href="#talk" aria-controls="talk" roll="tab" data-toggle="tab">Electrical  Talk</a></li>
             <!--<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>-->
           </ul>
 
@@ -148,52 +148,52 @@ error_reporting(0);
  if ($handle = opendir('.')) {
    while (false !== ($file = readdir($handle)))
       {
-          if ($file != "." && $file != ".." && $file != ".DS_Store" && $file != "fundrasing" && $file != "socialmedia" && $file != "sponsorship" && $file != "index.php" )
+          if ($file != "." && $file != ".." && $file != ".DS_Store" && $file != "assembly" && $file != "CAD" && $file != "programing" && $file != "index.php" )
 	  {
           	$thelist .= '<li class="list-group-item">&emsp;<a href="'.$file.'">'.$file.'</a></li>';
           }
        }
   closedir($handle);
   }    
- if ($SMhandle = opendir('./socialmedia')) {
+ if ($SMhandle = opendir('./assembly')) {
    while (false !== ($SMfile = readdir($SMhandle)))
       {
           if ($SMfile != "." && $SMfile != ".." && $SMfile != ".DS_Store" && $SMfile != "fundrasing" && $SMfile != "socialmedia" && $SMfile != "sponsorship" && $SMfile != "index.php" )
 	  {
-          	$SMthelist .= '<li class="list-group-item">&emsp;&emsp;<a href="socialmedia/'.$SMfile.'">'.$SMfile.'</a></li>';
+          	$SMthelist .= '<li class="list-group-item">&emsp;&emsp;<a href="assembly/'.$SMfile.'">'.$SMfile.'</a></li>';
           }
        }
   closedir($SMhandle);
   } 
- if ($FMhandle = opendir('./fundrasing')) {
+ if ($FMhandle = opendir('./CAD')) {
    while (false !== ($FMfile = readdir($FMhandle)))
       {
           if ($FMfile != "." && $FMfile != ".." && $FMfile != ".DS_Store" && $FMfile != "index.php" )
 	  {
-          	$FMthelist .= '<li class="list-group-item">&emsp;&emsp;<a href="fundrasing/'.$FMfile.'">'.$FMfile.'</a></li>';
+          	$FMthelist .= '<li class="list-group-item">&emsp;&emsp;<a href="CAD/'.$FMfile.'">'.$FMfile.'</a></li>';
           }
        }
   closedir($FMhandle);
   } 
- if ($SPhandle = opendir('./sponsorship')) {
+ if ($SPhandle = opendir('./assembly')) {
    while (false !== ($SPfile = readdir($SPhandle)))
       {
           if ($SPfile != "." && $SPfile != ".." && $SPfile != ".DS_Store" && $SPfile != "index.php" )
 	  {
-          	$SPthelist .= '<li class="list-group-item">&emsp;&emsp;<a href="sponsorship/'.$SPfile.'">'.$SPfile.'</a></li>';
+          	$SPthelist .= '<li class="list-group-item">&emsp;&emsp;<a href="assembly/'.$SPfile.'">'.$SPfile.'</a></li>';
           }
        }
   closedir($SPhandle);
   } 
 ?>
                 <ul class="list-group">
-                    <li class="list-group-item">Buissness</li>
+                    <li class="list-group-item">Electrical</li>
                     <?php echo $thelist; ?>
-                    <li class="list-group-item">&emsp;SocialMedia</li>
+                    <li class="list-group-item">&emsp;Assembly</li>
                     <?php echo $SMthelist; ?>
-                    <li class="list-group-item">&emsp;Fundrasing</li>
+                    <li class="list-group-item">&emsp;CAD</li>
                     <?php echo $FMthelist; ?>
-                    <li class="list-group-item">&emsp;Sponsorship</li>
+                    <li class="list-group-item">&emsp;Programing</li>
                     <?php echo $SPthelist; ?>
                 </ul>
               
@@ -203,7 +203,7 @@ error_reporting(0);
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'DHSRobotics'; // required: replace example with your forum shortname
-        var disqus_identifier = 'Business';
+        var disqus_identifier = 'Electrical';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {

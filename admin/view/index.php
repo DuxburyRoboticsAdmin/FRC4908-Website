@@ -144,15 +144,6 @@ if(isset($_GET["exists"])) {
     //header('Location: ./?exists=1');
 	echo '<div class="alert alert-danger" role="alert"><center><strong>Warning!</strong> Your file already exists! Contact <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Remove File">Kyle</a> to remove the file. </center></div>';
 }
-if(isset($_GET["nosubmit"])) {
-    //header('location: ./?nosubmit=1');
-	echo '<div class="alert alert-danger" role="alert"><center><strong>Warning!</strong> Your never click submit? Some bad happened. I\'m sorry. Try again. </center></div>';
-}
-if(isset($_GET["final"])) {
-    //header('Location: ./?final=1');
-	echo '<div class="alert alert-danger" role="alert"><center><strong>Warning!</strong> Your file was not uploaded. </center></div>';
-}
-
 ?>
 		<br>
         <div role="tabpanel">
