@@ -143,8 +143,31 @@ else
                 
                 <br>Viewing files is currently in <span class="label label-info">Beta</span><br>
                 <br>
+<?php
+error_reporting(0);
+ if ($handle = opendir('.')) {
+   while (false !== ($file = readdir($handle)))
+      {
+          if ($file != "." && $file != ".." && $file != ".DS_Store" && $file != "fundrasing" && $file != "socialmedia" && $file != "sponsorship" && $file != "index.php" )
+	  {
+          	$thelist .= '<li class="list-group-item"><a href="'.$file.'">'.$file.'</a></li>';
+          }
+       }
+  closedir($handle);
+  }    
+ if ($SMhandle = opendir('./socialmedia')) {
+   while (false !== ($SMfile = readdir($SMhandle)))
+      {
+          if ($SMfile != "." && $SMfile != ".." && $SMfile != ".DS_Store" && $SMfile != "fundrasing" && $SMfile != "socialmedia" && $SMfile != "sponsorship" && $SMfile != "index.php" )
+	  {
+          	$SMthelist .= '<li class="list-group-item"><a href="'.$SMfile.'">Social Media > '.$SMfile.'</a></li>';
+          }
+       }
+  closedir($SMhandle);
+  } 
+?>
                 <ul class="list-group">
-                    <li class="list-group-item"><a href="buissness/">Business </a></li>
+                    <?php echo $thelist.$SMthelist; ?>
                 </ul>
               
               </div>
