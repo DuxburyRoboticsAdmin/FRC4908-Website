@@ -185,7 +185,7 @@ if(isset($_GET["exists"])) {
     <input type="file" class="form-control" name="fileToUpload" id="fileToUpload">
     <p class="help-block">This is case sensetive! Double check the file name before uploading! </p>
   </div>
-  <button type="submit" class="btn btn-default" value="Upload Image" name="submit">Submit</button>
+  <button type="submit" class="btn btn-default" value="Upload Image" name="submit" id="myButton" data-loading-text="Uploading..." autocomplete="on">Upload</button>
 </form>     
 
             </div>
@@ -231,7 +231,6 @@ if(isset($_GET["exists"])) {
     <script src="../../js/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../js/ie10-viewport-bug-workaround.js"></script>
-    <script type="text/javascript" src="../../js/jquery.html5uploader.min.js"></script>
       
     </body>
   </html>

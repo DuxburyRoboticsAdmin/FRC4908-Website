@@ -175,12 +175,12 @@ error_reporting(0);
        }
   closedir($FMhandle);
   } 
- if ($SPhandle = opendir('./assembly')) {
+ if ($SPhandle = opendir('./programing')) {
    while (false !== ($SPfile = readdir($SPhandle)))
       {
           if ($SPfile != "." && $SPfile != ".." && $SPfile != ".DS_Store" && $SPfile != "index.php" )
 	  {
-          	$SPthelist .= '<li class="list-group-item">&emsp;&emsp;<a href="assembly/'.$SPfile.'">'.$SPfile.'</a></li>';
+          	$SPthelist .= '<li class="list-group-item">&emsp;&emsp;<a href="programing/'.$SPfile.'">'.$SPfile.'</a></li>';
           }
        }
   closedir($SPhandle);
