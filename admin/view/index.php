@@ -189,7 +189,7 @@ if(isset($_GET["exists"])) {
 </form>     
 
             </div>
-            <div role="tabpanel" class="tab-pane" id="remove">&emsp;Removing files is not working yet. Contact <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Remove Files">Kyle</a> to remove files. </div>
+            <div role="tabpanel" class="tab-pane" id="remove"><br>&emsp;Removing files is not working yet. Contact <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Remove Files">Kyle</a> to remove files. </div>
             <div role="tabpanel" class="tab-pane" id="talk">
 <div id="disqus_thread"></div>
     <script type="text/javascript">
