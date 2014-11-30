@@ -108,7 +108,7 @@ else
                         <li><a href="../../../../team/">Our Team</a></li>
                         <li><a href="../../../../media/">Media <span class="caret"></span></a></li>
                         <li><a href="../../../../sponsors/"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
-                        <li><a href="../../../../blog/">Blog</a></li>
+                        ÷
                         <li><a href="http://twitter.com/DuxburyRobotics"><span class="glyphicons social-twitter"></span></a></li>
                         <li><a href="http://fb.com/DuxburyRobotics"><span class="glyphicons social-facebook"></span></a></li>
                         <li><a href="http://instagram.com/DuxburyRobotics"><span class="glyphicons social-instagram"></span></a></li>
