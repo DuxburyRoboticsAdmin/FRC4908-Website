@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost","root","","DuxburyRobotics");
+$con=mysqli_connect("localhost","root","","duxrobof_DuxburyRobotics");
 // Check connection
 if (mysqli_connect_errno())
 {
