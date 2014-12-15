@@ -1,6 +1,11 @@
 <?php
 /* http://www.phpro.org/tutorials/Basic-Login-Authentication-with-PHP-and-MySQL.html */
 
+session_unset();
+
+// Destroy the session.
+session_destroy();
+
 /*** begin our session ***/
 session_start();
 
@@ -41,16 +46,16 @@ else
     
     /*** connect to database ***/
     /*** mysql hostname ***/
-    $mysql_hostname = 'localhost';
+    $mysql_hostname = 'www.db4free.net';
 
     /*** mysql username ***/
-    $mysql_username = 'root';
+    $mysql_username = 'duxrobo';
 
     /*** mysql password ***/
-    $mysql_password = '';
+    $mysql_password = 'DuxRobo';
 
     /*** database name ***/
-    $mysql_dbname = 'DuxburyRobotics';
+    $mysql_dbname = 'duxrobo';
 
     try
     {

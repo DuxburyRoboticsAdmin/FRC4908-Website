@@ -1,0 +1,3 @@
+[10-Dec-2014 12:03:42 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home1/duxrobof/public_html/admin/resources/view/documents/2015 US Team List.php on line 94
+[10-Dec-2014 12:03:47 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home1/duxrobof/public_html/admin/resources/view/documents/2015 US Team List.php on line 94
+[10-Dec-2014 15:07:49 America/Denver] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home1/duxrobof/public_html/admin/resources/view/documents/2015 US Team List.php on line 94

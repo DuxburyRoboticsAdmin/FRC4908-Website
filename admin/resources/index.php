@@ -58,6 +58,7 @@ if(isset($_GET["check"])) {
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" name="phpro_password" class="form-control" placeholder="Password" required="">
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+		<br><center><label>Getting a error? Try <a href="logout.php">logging out</a>.</label></center>
         <br>
         &emsp;<a href="../../" title="Are you lost?"> ← Head back to the main website</a> 
       </form>

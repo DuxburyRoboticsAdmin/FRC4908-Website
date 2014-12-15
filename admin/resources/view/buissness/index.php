@@ -13,16 +13,16 @@ else
     {
         /*** connect to database ***/
         /*** mysql hostname ***/
-        $mysql_hostname = 'localhost';
+    $mysql_hostname = 'www.db4free.net';
 
-        /*** mysql username ***/
-        $mysql_username = 'root';
+    /*** mysql username ***/
+    $mysql_username = 'duxrobo';
 
-        /*** mysql password ***/
-        $mysql_password = '';
+    /*** mysql password ***/
+    $mysql_password = 'DuxRobo';
 
-        /*** database name ***/
-        $mysql_dbname = 'DuxburyRobotics';
+    /*** database name ***/
+    $mysql_dbname = 'duxrobo';
 
 
         /*** select the users name from the database ***/
@@ -131,8 +131,8 @@ else
 
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
+			<li roll="presentation"><a href="../" aria-controls="Back" roll="tab" >← Reousrces Main</a></li>
             <li role="presentation" class="active"><a href="#view" aria-controls="home" role="tab" data-toggle="tab">Files <span class="label label-info">Beta</span></a></li>
-            <li roll="presentation"><a href="#talk" aria-controls="talk" roll="tab" data-toggle="tab">Business Talk</a></li>
             <!--<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>-->
           </ul>
 
@@ -198,23 +198,6 @@ error_reporting(0);
                 </ul>
               
               </div>
-              <div role="tabpanel" class="tab-pane" id="talk">
-<div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'DHSRobotics'; // required: replace example with your forum shortname
-        var disqus_identifier = 'Business';
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-              
-            </div>
           </div>
 
         </div>

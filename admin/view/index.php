@@ -13,16 +13,16 @@ else
     {
         /*** connect to database ***/
         /*** mysql hostname ***/
-        $mysql_hostname = 'localhost';
+    $mysql_hostname = 'www.db4free.net';
 
-        /*** mysql username ***/
-        $mysql_username = 'root';
+    /*** mysql username ***/
+    $mysql_username = 'duxrobo';
 
-        /*** mysql password ***/
-        $mysql_password = '';
+    /*** mysql password ***/
+    $mysql_password = 'DuxRobo';
 
-        /*** database name ***/
-        $mysql_dbname = 'DuxburyRobotics';
+    /*** database name ***/
+    $mysql_dbname = 'duxrobo';
 
 
         /*** select the users name from the database ***/
