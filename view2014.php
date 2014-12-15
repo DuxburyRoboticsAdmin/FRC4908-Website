@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
 $con=mysqli_connect("www.db4free.net","duxrobo","DuxRobo","duxrobo");
+=======
+$con=mysqli_connect("localhost","root","","duxrobof_DuxburyRobotics");
+>>>>>>> 17dfb77f885d6b1ce0f3604ddfeca626e494b876
 // Check connection
 if (mysqli_connect_errno())
 {
