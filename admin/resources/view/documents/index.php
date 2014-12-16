@@ -13,16 +13,16 @@ else
     {
         /*** connect to database ***/
         /*** mysql hostname ***/
-        $mysql_hostname = 'localhost';
+    $mysql_hostname = 'www.db4free.net';
 
-        /*** mysql username ***/
-        $mysql_username = 'root';
+    /*** mysql username ***/
+    $mysql_username = 'duxrobo';
 
-        /*** mysql password ***/
-        $mysql_password = '';
+    /*** mysql password ***/
+    $mysql_password = 'DuxRobo';
 
-        /*** database name ***/
-        $mysql_dbname = 'DuxburyRobotics';
+    /*** database name ***/
+    $mysql_dbname = 'duxrobo';
 
 
         /*** select the users name from the database ***/
@@ -131,6 +131,7 @@ else
 
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
+			<li roll="presentation"><a href="../" aria-controls="Back" roll="tab" >← Reousrces Main</a></li>
             <li role="presentation" class="active"><a href="#view" aria-controls="home" role="tab" data-toggle="tab">Files <span class="label label-info">Beta</span></a></li>
             <!--<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>-->
           </ul>
@@ -147,9 +148,9 @@ error_reporting(0);
  if ($handle = opendir('.')) {
    while (false !== ($file = readdir($handle)))
       {
-          if ($file != "." && $file != ".." && $file != ".DS_Store" && $file != "fundrasing" && $file != "socialmedia" && $file != "sponsorship" && $file != "index.php" )
+          if ($file != "." && $file != ".." && $file != ".DS_Store" && $file != "error_log" && $file != "index.php")
 	  {
-          	$thelist .= '<li class="list-group-item">&emsp;<a href="'.$file.'">'.$file.'</a></li>';
+          	$thelist .= '<li class="list-group-item">&emsp;<a href="'.$file.'" target="_blank">'.$file.'</a></li>';
           }
        }
   closedir($handle);

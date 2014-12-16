@@ -1,12 +1,12 @@
 <?php
-$con=mysqli_connect("localhost","root","","DuxburyRobotics");
+$con=mysqli_connect("www.db4free.net","duxrobo","DuxRobo","duxrobo");
 // Check connection
 if (mysqli_connect_errno())
 {
 echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-$result = mysqli_query($con,"SELECT * FROM Team_2015");
+$result = mysqli_query($con,"SELECT * FROM team_2015");
 
 ?>
 

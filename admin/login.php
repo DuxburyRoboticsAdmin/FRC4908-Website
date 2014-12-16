@@ -1,5 +1,7 @@
 <?php
 /* http://www.phpro.org/tutorials/Basic-Login-Authentication-with-PHP-and-MySQL.html */
+//Admin Login//
+
 
 /*** begin our session ***/
 session_start();
@@ -41,21 +43,21 @@ else
     
     /*** connect to database ***/
     /*** mysql hostname ***/
-    $mysql_hostname = 'localhost';
+    $mysql_hostname = 'www.db4free.net';
 
     /*** mysql username ***/
-    $mysql_username = 'root';
+    $mysql_username = 'duxrobo';
 
     /*** mysql password ***/
-    $mysql_password = '';
+    $mysql_password = 'DuxRobo';
 
     /*** database name ***/
-    $mysql_dbname = 'DuxburyRobotics';
+    $mysql_dbname = 'duxrobo';
 
     try
     {
         $dbh = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
-        /*** $message = a message saying we have connected ***/
+         $message = 'We have connected';
 
         /*** set the error mode to excptions ***/
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -96,7 +98,7 @@ else
     catch(Exception $e)
     {
         /*** if we are here, something has gone wrong with the database ***/
-        $message = 'We are unable to process your request. Please try again later"';
+        $message = 'We are unable to process your request. Please try again later';
         header('Location ../admin/?DB=1');
     }
 }
