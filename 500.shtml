@@ -1,0 +1,14 @@
+<html>
+<body>
+<h1>Error 500</h1>
+<h2>Resource/Admin pages click <a href="logout.php">here</a> and try again. </h2>
+<br>
+<br>
+<p>Otherwise click <a href="mailto:kyleknobloch@duxbury.k12.ma.us?subject=Robotics 500 Error&body=PASTE IN THE YOUR INFORMATION HERE">here to email Kyle</a>. Copy/paste the information below. </p>
+
+<p>Your info: <!--#echo var="REMOTE_ADDR" --> || <!--#echo var="HTTP_HOST" --> <!--#echo var="REQUEST_URI" --> || <!--#echo var="HTTP_HOST" --> <!--#echo var="HTTP_REFERER" --> || <!--#echo var="HTTP_USER_AGENT" --> || Error #<!--#echo var="REDIRECT_STATUS" -->
+</body>
+</html>
+<!-- 
+                                                                                                                                                                                                                                                                                                                    
+--> 

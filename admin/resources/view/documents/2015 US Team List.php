@@ -37,51 +37,11 @@ $result = mysqli_query($con,"SELECT * FROM team_2015");
     <link href="../../../../css/glyphicons.css" rel="stylesheet">
 
 </head>
-    
-<!-- NAVBAR
-================================================== -->
+	
+	
 <div id=""></div>
   <body>
-        <div class="navbar navbar-default navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="../../../../#"><!--<img src="img/dragon.png" width="20px">-->  Duxbury Robotics</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="../../../../team/">Our Team</a></li>
-                <li class="dropdown">
-                  <a href="../../../../media/">Media <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="../../../../media/#Gallery">Gallery</a></li>
-                        <li><a href="../../../../media/#Videos">Videos</a></li>
-                        <li><a href="../../../../media/#archives">Archives</a></li>
-                    </ul>
-                </li>
-                <li><a href="../../../../sponsors/"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
-<!--                <li><a href="blog/">Blog</a></li>-->
-              </ul>
-               <ul class="nav navbar-nav navbar-right">
-                <li class="social"><a href="http://twitter.com/DuxburyRobotics"><span class="glyphicons social-twitter"></span></a> </li>
-                <li class="social"><a href="http://fb.com/DuxburyRobotics"><span class="glyphicons social-facebook"></span></a></li>
-                <li class="social"><a href="http://instagram.com/DuxburyRobotics"><span class="glyphicons social-instagram"></span> </a> </li>
-                <li class="social"> <a href="../../../../contact/"> <span class="glyphicons social-e-mail"></span></a></li>
-               </ul>
-            </div>
-          </div>
-        </div>
-      
-    
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
+       
     <div class="container marketing">
         <table class="table table-hover">
     

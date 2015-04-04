@@ -2,7 +2,6 @@
 /* http://www.phpro.org/tutorials/Basic-Login-Authentication-with-PHP-and-MySQL.html */
 //Admin Login//
 
-
 /*** begin our session ***/
 session_start();
 

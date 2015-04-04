@@ -64,6 +64,7 @@ if(isset($_GET["NoLog"])) {
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 		<br><center><label>Getting a error? Try <a href="logout.php">logging out</a>.</label></center>
         <br>
+		<input type="hidden" name="logout" value="false">
         &emsp;<a href="../" title="Are you lost?"> ← Head back to the main website</a> 
       </form>
     </div> <!-- /container -->
