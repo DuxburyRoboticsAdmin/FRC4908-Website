@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /register
+Disallow: /scouting
+Disallow: /js
+Disallow: /css
+Disallow: /img
+Disallow: /kyleknobloch
