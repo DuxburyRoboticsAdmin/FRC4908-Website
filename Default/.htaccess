@@ -1,8 +1,0 @@
-
-RewriteEngine on
-# Use PHP5.4 as default
-AddHandler application/x-httpd-php54 .php
-RewriteCond %{HTTP_HOST} ^duxrobo4908\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.duxrobo4908\.com$
-RewriteRule ^/?$ "http\:\/\/fredghostkyle\.bitbucket\.org\/" [R=302,L]
-

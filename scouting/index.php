@@ -41,9 +41,10 @@
                 <li class="dropdown">
                   <a href="../../../">Main Website <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="../../../team/">Our Team</a></li>
-                        <li><a href="../../../media/">Media <span class="caret"></span></a></li>
-                        <li><a href="../../../sponsors/"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
+                        <li><a href="../team/">Our Team</a></li>
+                        <li><a href="../media/">Media <span class="caret"></span></a></li>
+                        <li><a href="../sponsors/"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
+                        <li><a href="../engineering"><span class="glyphicon glyphicon-apple"></span> Engineering Week</a> </li>
                         <!--<li><a href="../../../blog/">Blog</a></li>-->
                         <li><a href="http://twitter.com/DuxburyRobotics"><span class="glyphicons social-twitter"></span></a></li>
                         <li><a href="http://fb.com/DuxburyRobotics"><span class="glyphicons social-facebook"></span></a></li>
@@ -51,15 +52,9 @@
                         <li><a href="../../../contact/"><span class="glyphicons social-e-mail"></span></a></li>
                     </ul>
                 </li>
-                <li><a href="../../">Admin</a></li>
-                <li class=""><a href="../admin/resources/">Resources</a></li>
-                <li class="active"><a href="./">Scouting</a></li>  
+                <li><a href="../schoology"><span class="glyphicon glyphicon-briefcase"></span> Schoology</a></li>
+                <li class="active"><a href="./"><span class="glyphicon glyphicon-map-marker"></span> Scouting</a></li>
                 </ul>
-              <ul class="nav navbar-nav navbar-right navbar-form">
-                <div class="form-group">
-                  <li><a href="../../logout.php"><button href="../logout.php" class="btn btn-danger btn-sm">LOGOUT</button></a></li>  
-                </div>
-              </ul>
             </div>
           </div>
         </div>
@@ -80,8 +75,8 @@
     <div class="container"> 
      <hr>
       <footer>
-        <p class="pull-right">FIRST Team 4908 | <a href="../admin/">Admin</a> | <a href="../admin/resource/">Resources</a></p>
-        <p>Copyright © Duxbury Robotics</p>
+          <p class="pull-right">FIRST Team 4908 | <a href="../schoology">Schoology</a></p>
+          <p>Copyright © Duxbury Robotics</p>
       </footer>
 
     </div><!-- /.container -->
