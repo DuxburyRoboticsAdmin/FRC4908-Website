@@ -1,6 +1,4 @@
-# README #
-
-This README would normally document whatever steps are necessary to get your application up and running.
+# README BEFORE YOU DO ANYTHING HERE #
 
 ### Duxbury Robotics Wesbite ###
 
@@ -9,16 +7,12 @@ All of the HTML, CSS and PhP needed for duxrobo4908.com
 ### How do I get set up? ###
 
 Download latest master branch
+
 Make sure PhP 4.x is installed
+
 Run on Apache (server runs in linux environment, should be irrlevent) 
 
-Can use 
-```
-#!DOS
-
-php -S localhost:80
-```
-if you would wish to. 
+Can use ```php -S localhost:80``` if you would wish to. 
 
 ### Contribution guidelines ###
 
