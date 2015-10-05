@@ -12,7 +12,9 @@ Make sure PhP 4.x is installed
 
 Run on Apache (server runs in linux environment, should be irrlevent) 
 
-Can use ```php -S localhost:80``` if you would wish to. 
+
+
+Can use ```php -S localhost:80``` to run if you would wish to. 
 
 ### Contribution guidelines ###
 
