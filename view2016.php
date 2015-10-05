@@ -1,12 +1,12 @@
 <?php
-$con=mysqli_connect("www.db4free.net","duxrobo","DuxRobo","duxrobo");
+$con=mysqli_connect("localhost","duxrobof_team","Second_First4908","duxrobof_2016");
 // Check connection
 if (mysqli_connect_errno())
 {
 echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-$result = mysqli_query($con,"SELECT * FROM team");
+$result = mysqli_query($con,"SELECT * FROM teams");
 
 ?>
 
@@ -42,7 +42,7 @@ $result = mysqli_query($con,"SELECT * FROM team");
 ================================================== -->
 <div id=""></div>
   <body>
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+                <div class="navbar navbar-inverse navbar-static-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -74,46 +74,46 @@ $result = mysqli_query($con,"SELECT * FROM team");
                 <li class="dropdown">
                  <a><span class="glyphicon glyphicon-th-list"></span> Team Lists <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="/view2016.php">2016</a></li>
+                    <li class="active"><a href="/view2016.php">2016</a></li>
                     <li><a href="/view2015.php">2015</a></li>
-                    <li class="active"><a href="/view2014.php">2014</a></li> 
+                    <!-- <li><a href="/view2014.php">2014</a></li> -->
                   </ul>
                 </li>
                 </ul>
             </div>
           </div>
         </div>
+      
     
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
-        <table class="table table-hover">
-    
-<tr>
-<th>Number</th>
-<th>Rookie Year</th>
-<th>Name</th>
-<th>Nick name</th>
-<th>Location</th>
-</tr>
-<?php
-while($row = mysqli_fetch_array($result))
-{
-echo "<tr>";
-echo "<td>" . $row['number'] . "</td>";
-echo "<td>" . $row['year_rookie'] . "</td>";
-echo "<td>" . $row['name'] . "</td>";
-echo "<td>" . $row['nickname'] . "</td>";
-echo "<td>" . $row['location'] . "</td>";
-echo "</tr>";
-}
-echo "</table>";
+        <center><h2>2016 FRC Teams List</h2>
+        <p>A dash (--) indicated a team that is inactive, a team this is going to be active or a team that has minimal data for it. All data is curtesy of <a href="http://thebluealliance.com/teams">The Blue Alliance</a>. They're awesome, check them out!</p></center>    
+            <table class="table table-hover">
+                <tr>
+                <th>Number</th>
+                <th>Name</th>
+                <th>Location</th>
+                </tr>
+                    <?php
+                    while($row = mysqli_fetch_array($result))
+                    {
+                    echo "<tr>";
+                    echo "<td>" . $row['COL 1'] . "</a></td>";
+                    echo "<td><a href='http://thebluealliance.com/team/" . $row['COL 1'] . "' target='_blank'>" . $row['COL 2'] . "</td>";
+                    echo "<td>" . $row['COL 3'] . "</td>";
+                    echo "</tr>";
+                    }
+                    echo "</table>";
 
-mysqli_close($con);
-?>    
-        </table>
+                    mysqli_close($con);
+                    ?> 
+            </table>
+        <br>   
+        <p>Last DB Update, Mon, Sep 27, 2015</p>
 
       <!-- FOOTER -->
     
