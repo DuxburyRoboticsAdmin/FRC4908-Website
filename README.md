@@ -10,11 +10,20 @@ Download latest master branch
 
 Make sure PhP 4.x is installed
 
-Run on Apache (server runs in linux environment, should be irrlevent) 
+Run on Apache (server runs in Linux environment, should be irrelevant) 
 
 
 
 Can use ```php -S localhost:80``` to run if you would wish to. 
+
+
+### Branches ###
+-*Master* - the main website
+
+-*Administration* - admin.duxrobo4908.com
+
+-*blog* - WP Install
+
 
 ### Contribution guidelines ###
 
