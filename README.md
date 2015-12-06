@@ -1,8 +1,6 @@
-# README BEFORE YOU DO ANYTHING HERE #
+# Duxbury Robotics Wesbite #
 
-### Duxbury Robotics Wesbite ###
-
-All of the HTML, CSS and PhP needed for duxrobo4908.com
+All of the HTML, CSS and PhP needed for duxburyrobotics.com
 
 ### How do I get set up? ###
 
@@ -10,25 +8,26 @@ Download latest master branch
 
 Make sure PhP 4.x is installed
 
-Run on Apache (server runs in Linux environment, should be irrelevant) 
-
-
-
-Can use ```php -S localhost:80``` to run if you would wish to. 
+The live server uses Apache, PhP and MYSQL. You don't need to run the website 
+like this. In development we run the website using IntelilJ's built-in service
+or with ```php -S localhost:80```. Really, any web server/service will do. 
 
 
 ### Branches ###
--*Master* - the main website
+- *Master* - the live website. This is what's avalible to the public.
 
--*Administration* - admin.duxrobo4908.com
+- *dev* - Dev branch is for development stuff and things that are a work in progress. 
 
--*blog* - WP Install
+- *admin* - This is where the administration related stuff will now be heald. 
 
 
 ### Contribution guidelines ###
 
-Please, for the love of god (BRENDAN) make pulls unless I tell not to. 
+Please, for the love of god, make pull requests or make an issue if you find one. 
+Make my life easier and less email based. 
+
+Thanks! 
 
 ### Who do I talk to? ###
 
-Talk to @fredghostkyle or kyleknobloch@duxbury.k12.ma.us
+Talk to @kyleknobloch or```kyleknobloch@duxbury.k12.ma.us```
