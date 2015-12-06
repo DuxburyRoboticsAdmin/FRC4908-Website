@@ -1,3 +1,15 @@
+<?php
+//redirect to fredghostkyle.us
+$domain = $_SERVER['SERVER_NAME'];
+if($domain == 'git.duxburyrobotics.com') {
+     header('Location: http://git.duxburyrobotics.com:81');
+} 
+
+
+error_reporting(0); //Cuz' fuck em. 
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
