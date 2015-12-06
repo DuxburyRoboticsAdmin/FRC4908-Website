@@ -1,6 +1,6 @@
 # README BEFORE YOU DO ANYTHING HERE #
 
-### Duxbury Robotics Website ###
+### Duxbury Robotics Wesbite ###
 
 All of the HTML, CSS and PhP needed for duxrobo4908.com
 
@@ -27,7 +27,7 @@ Can use ```php -S localhost:80``` to run if you would wish to.
 
 ### Contribution guidelines ###
 
-Please, for the love of god (BRENDAN) make pulls unless I tell you not to. 
+Please, for the love of god (BRENDAN) make pulls unless I tell not to. 
 
 ### Who do I talk to? ###
 
