@@ -47,7 +47,7 @@ error_reporting(0); //Cuz' fuck em.
 <body><!--
     <div class="navbar-wrapper">
       <div class="container">-->
-<div class="navbar navbar-default navbar-static-top" role="navigation">
+<div class="navbar navbar-inverse navbar-static-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -56,28 +56,26 @@ error_reporting(0); //Cuz' fuck em.
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"><!--<img src="img/dragon.png" width="20px">-->  Duxbury Robotics</a>
+            <a class="navbar-brand" href="../../"><span class="glyphicon glyphicon-dashboard"></span> Administration </a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="team.php">Our Team</a></li>
                 <li class="dropdown">
-                    <a href="media.php">Media <span class="caret"></span></a>
+                    <a href="../../../">Main Website <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="media.php/#Gallery">Gallery</a></li>
-                        <li><a href="media.php/#Videos">Videos</a></li>
-                        <li><a href="media.php/#archives">Archives</a></li>
+                        <li><a href="team.php">Our Team</a></li>
+                        <li><a href="media.php">Media <span class="caret"></span></a></li>
+                        <li><a href="sponsors.php"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
+                        <li><a href="engineering.php"><span class="glyphicon glyphicon-apple"></span> Engineering Week</a> </li>
+                        <!--<li><a href="../../../blog/">Blog</a></li>-->
+                        <li><a href="http://twitter.com/DuxburyRobotics"><span class="glyphicons social-twitter"></span></a></li>
+                        <li><a href="http://fb.com/DuxburyRobotics"><span class="glyphicons social-facebook"></span></a></li>
+                        <li><a href="http://instagram.com/DuxburyRobotics"><span class="glyphicons social-instagram"></span></a></li>
+                        <li><a href="contact.php"><span class="glyphicons social-e-mail"></span></a></li>
                     </ul>
                 </li>
-                <li><a href="sponsors.php"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
-                <li class=""><a href="engineering.php"><span class="glyphicon glyphicon-apple"></span> Engineering Week</a></li>
-                <!--                <li><a href="blog/">Blog</a></li>-->
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="social"><a href="http://twitter.com/DuxburyRobotics"><span class="glyphicons social-twitter"></span></a> </li>
-                <li class="social"><a href="http://fb.com/DuxburyRobotics"><span class="glyphicons social-facebook"></span></a></li>
-                <li class="social"><a href="http://instagram.com/DuxburyRobotics"><span class="glyphicons social-instagram"></span> </a> </li>
-                <li class="social"> <a href="contact.php"> <span class="glyphicons social-e-mail"></span></a></li>
+                <li><a href="schoology.php"><span class="glyphicon glyphicon-briefcase"></span> Schoology</a></li>
+                <li><a href="scouting.php"><span class="glyphicon glyphicon-map-marker"></span> Scouting</a></li>
             </ul>
         </div>
     </div>
@@ -92,7 +90,7 @@ error_reporting(0); //Cuz' fuck em.
 
     <hr>
     <footer>
-        <p class="pull-right">FIRST FRC Team 4908 | <a href="schoology.php">Schoology</a></p>
+        <p class="pull-right">FIRST Team 4908 | <a href="/schoology">Schoology</a></p>
         <p>Copyright © Duxbury Robotics </p>
     </footer>
 
