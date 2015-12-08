@@ -4,7 +4,7 @@
     <p><img src="../img/sponsor/nasa.png" width="20%"> &emsp;&emsp; <img src="../img/sponsor/ptc.png" width="38%"></p>
     <p><img src="../img/sponsor/conway.png" width="20%"><img src="../img/sponsor/tri.png" width="34%"></p>
     <p><img src="../img/DEF.png"></p>
-</center>
+
     <br>
     <br>
     <br>
@@ -59,7 +59,7 @@
 
 <hr>
 
-<center>
+
     <h2 class="featurette-heading">Duxbury Robotics offers students life changing opportunities. <span class="text-muted">Get in touch with us, and you too can offer students life changing opportunities.</span></h2>
 </center>
 
@@ -78,5 +78,6 @@
 </div>
         </div>
 <br>
+<div class="container">
 
 

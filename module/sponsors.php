@@ -7,7 +7,7 @@
         <!--<p><a href="../contact/">"<img src="../img/sponsor/become.jpg"></a></p>-->
         <br>
         <br>
-        <p><a class="btn btn-primary btn-lg" role="button" href="../sponsorus/">Sponsor Us</a></p>
+        <p><a class="btn btn-primary btn-lg" role="button" href="sponsorus.php">Sponsor Us</a></p>
 
     </center>
 </div>
