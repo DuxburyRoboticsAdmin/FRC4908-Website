@@ -20,7 +20,7 @@
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
         <img class="img-circle" src="../img/programing.JPG" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-        <h2>Programing</h2>
+        <h2>Programming</h2>
         <p>Our programming team expands their horizons as they learn to use logic to problem solve. Using advanced programming languages, students learn to push their own abilities beyond their self-perceived intellectual capacity.</p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
