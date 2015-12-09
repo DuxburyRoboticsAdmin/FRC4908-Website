@@ -24,7 +24,7 @@
         <p>Our programming team expands their horizons as they learn to use logic to problem solve. Using advanced programming languages, students learn to push their own abilities beyond their self-perceived intellectual capacity.</p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-        <img class="img-circle" src="../img/managment.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+        <img class="img-circle" src="../img/managment.JPG" alt="Generic placeholder image" style="width: 140px; height: 140px;">
         <h2>Managment</h2>
         <p>Any organization or company requires an organizing force. Our management team is responsible for managing the team’s finances, and generating public interest in robotics. Along the way, students learn the necessary skills that are required in the business world.</p>
     </div><!-- /.col-lg-4 -->
