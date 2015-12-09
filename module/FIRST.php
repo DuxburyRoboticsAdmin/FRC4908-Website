@@ -13,7 +13,7 @@
                 <img src="../img/FIRST.jpg" width="85%">
                 <center>
                     <div class="caption">
-                        <h3>For More Information</h3>
+                        <h3>For plkhjghhg More Information</h3>
                         <p>Visit the FIRST website.</p>
                         <p><a href="http://usfirst.org/roboticsprograms/frc" class="btn btn-primary" role="button">Learn More</a></p>
                     </div>
