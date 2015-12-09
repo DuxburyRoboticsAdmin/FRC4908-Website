@@ -15,7 +15,7 @@ error_reporting(0); //Cuz' fuck em.
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Duxbury High School Robotics Team">
-    <meta name="author" content="@Fredghostkyle for DHS Robitics Team">
+    <meta name="author" content="@Fredghostkyle for DHS Robotics Team">
     <link rel="icon" href="/favicon.ico">
 
     <title>Duxbury Robotics</title>
