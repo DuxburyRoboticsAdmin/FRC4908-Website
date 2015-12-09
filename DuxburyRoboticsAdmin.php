@@ -1,4 +1,12 @@
-<!-- for use with OUSTIDE the root yet only 1 folder in -->
+<?php
+$domain = $_SERVER['SERVER_NAME'];
+if($domain == 'git.duxburyrobotics.com') {
+    header('Location: http://git.duxburyrobotics.com:81');
+}
+
+error_reporting(0); //Cuz' fuck em.
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,13 +16,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Duxbury High School Robotics Team">
     <meta name="author" content="@Fredghostkyle for DHS Robitics Team">
-    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+    <link rel="icon" href="/favicon.ico">
 
     <title>Duxbury Robotics</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
-    <link href="../css/glyphicons.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -22,9 +29,24 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style>
+        .carousel img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            height: 500px;
+        }
+    </style>
+
 </head>
+
+<!-- NAVBAR
+================================================== -->
 <div id=""></div>
-<body>
+<body><!--
+    <div class="navbar-wrapper">
+      <div class="container">-->
 <div class="navbar navbar-inverse navbar-static-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
@@ -41,54 +63,45 @@
                 <li class="dropdown">
                     <a href="../../../">Main Website <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="../team/">Our Team</a></li>
-                        <li><a href="../media/">Media <span class="caret"></span></a></li>
-                        <li><a href="../sponsors/"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
-                        <li><a href="../engineering"><span class="glyphicon glyphicon-apple"></span> Engineering Week</a> </li>
+                        <li><a href="team.php">Our Team</a></li>
+                        <li><a href="media.php">Media <span class="caret"></span></a></li>
+                        <li><a href="sponsors.php"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
+                        <li><a href="engineering.php"><span class="glyphicon glyphicon-apple"></span> Engineering Week</a> </li>
                         <!--<li><a href="../../../blog/">Blog</a></li>-->
                         <li><a href="http://twitter.com/DuxburyRobotics"><span class="glyphicons social-twitter"></span></a></li>
                         <li><a href="http://fb.com/DuxburyRobotics"><span class="glyphicons social-facebook"></span></a></li>
                         <li><a href="http://instagram.com/DuxburyRobotics"><span class="glyphicons social-instagram"></span></a></li>
-                        <li><a href="../../../contact/"><span class="glyphicons social-e-mail"></span></a></li>
+                        <li><a href="contact.php"><span class="glyphicons social-e-mail"></span></a></li>
                     </ul>
                 </li>
-                <li class="active"><a href="./schoology"><span class="glyphicon glyphicon-briefcase"></span> Schoology</a></li>
-                <li><a href="../scouting"><span class="glyphicon glyphicon-map-marker"></span> Scouting</a></li>
+                <li><a href="schoology.php"><span class="glyphicon glyphicon-briefcase"></span> Schoology</a></li>
+                <li><a href="scouting.php"><span class="glyphicon glyphicon-map-marker"></span> Scouting</a></li>
             </ul>
         </div>
     </div>
 </div>
 
 <div class="container">
-    <div class="container jumbotron">
-        <center>
-            <h1 class="">Robotics Schoology Page</h1>
-            <p>If you are not all ready a member of Duxbury's Robotics Schoology please contact anyone in robotics for the join code. </p>
-            <p>If you have already joined you can navigate <a href="https://duxbury.schoology.com/group/299701288" target="_blank">here</a> for direct access for the page. </p>
 
-        </center>
-    </div>
+    <?php require_once "module/$module.php"; ?>
+
+    <!-- FOOTER -->
 
 
-
-</div>
-
-<div class="container">
     <hr>
     <footer>
-        <p class="pull-right">FIRST Team 4908 | <a href="../schoology">Schoology</a></p>
-        <p>Copyright © Duxbury Robotics</p>
+        <p class="pull-right">FIRST Team 4908 | <a href="/schoology">Schoology</a></p>
+        <p>Copyright © Duxbury Robotics </p>
     </footer>
 
 </div><!-- /.container -->
 
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="../js/jquery.min.js"></script>
-<script src="../js/bootstrap.js"></script>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../js/ie10-viewport-bug-workaround.js"></script>
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
 
 </body>
 </html>
