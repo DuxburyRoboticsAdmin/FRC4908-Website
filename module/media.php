@@ -1,6 +1,6 @@
 <div class="" id="Gallery">
     <h1>Photo Gallery</h1>
-    <h3>We're currently moving the pictues to a diffrent host for faster, easier viewing of the pictures. Thanks for your patience! </h3>
+    <h3>We're currently moving the pictures to a different host for faster, easier viewing of the pictures. Thanks for your patience! </h3>
 </div>
 <br>
 <br>
