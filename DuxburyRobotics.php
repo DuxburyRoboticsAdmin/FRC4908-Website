@@ -94,7 +94,7 @@ error_reporting(0); //Cuz' fuck em.
     <footer>
         <p class="pull-right">FIRST FRC Team 4908 | <a href="http://admin.duxburyrobotics.com">
                 <span class="glyphicon glyphicon-dashboard"></span> Administration</a></p>
-        <p>Copyright © Duxbury Robotics </p>
+        <p><?php echo date( 'Y' ); ?> Copyright © Duxbury Robotics </p>
     </footer>
 
 </div><!-- /.container -->
