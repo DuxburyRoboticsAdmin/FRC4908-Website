@@ -2,7 +2,7 @@
     <h1 class=""><span class="glyphicon glyphicon-heart-empty"></span> Sponsor Us</h1>
     <br>
     <p><img src="../img/sponsor/nasa.png" width="20%"> &emsp;&emsp; <img src="../img/sponsor/ptc.png" width="38%"></p>
-    <p><img src="../img/sponsor/conway.png" width="20%"><img src="../img/sponsor/tri.png" width="34%"></p>
+    <p><img src="../img/sponsor/conway.png" width="30%"><img src="../img/sponsor/tri.png" width="34%"></p>
     <p><img src="../img/DEF.png"></p>
 
     <br>
