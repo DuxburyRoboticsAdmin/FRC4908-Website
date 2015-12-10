@@ -7,7 +7,7 @@
     </div>
     </p>
     <br>
-    <a class="btn btn-primary btn-lg" role="button" href="/sponsorus">Sponsor Us</a>
+    <a class="btn btn-primary btn-lg" role="button" href="sponsorus.php">Sponsor Us</a>
 </center>
 </div> <!-- end div in DuxburyRobotics.php -->
 
@@ -25,11 +25,11 @@
                     <div class="caption">
                         <h3>Team 4908</h3>
                         <p>We are not a team, we are a family. </p>
-                        <p><a href="/team" class="btn btn-primary" role="button">Learn More</a></p>
+                        <p><a href="team.php" class="btn btn-primary" role="button">Learn More</a></p>
                         <hr>
                         <h3>FIRST Robotics</h3>
                         <p>We're a FIRST Robotics team. </p>
-                        <p><a href="/FIRST" class="btn btn-primary" role="button">Learn More</a></p>
+                        <p><a href="FIRST.php" class="btn btn-primary" role="button">Learn More</a></p>
                     </div>
                 </center>
             </div>
@@ -54,11 +54,11 @@
                     <div class="caption">
                         <h3>Our sponsors</h3>
                         <p>Power to the team. </p>
-                        <p><a href="/sponsors" class="btn btn-primary" role="button">Learn More</a></p>
+                        <p><a href="sponsors.php" class="btn btn-primary" role="button">Learn More</a></p>
                         <hr>
                         <h3>Sponsor Us </h3>
                         <p>Robotics is expensive. We operate on a tight budget. With your help, we can achieve so much more.</p>
-                        <p><a href="/sponsorus" class="btn btn-primary" role="button">Sponsor Us</a></p>
+                        <p><a href="sponsorus.php" class="btn btn-primary" role="button">Sponsor Us</a></p>
                     </div>
                 </center>
             </div>
