@@ -1,12 +1,14 @@
-<div class="well" style="text-align: center;">
-        <h2>Duxbury Robotics</h2>
-        <h2> We need your help! Come support the team! Volunteer, donate or buy some merch!!!! We need all the help we can get. </h2>
-        <h2> Intrested in promoting your buissness at a FIRST compitition? Support STEM education or just want to get your buissnsess
-            out there? Please, sponsor us! Your donation helps STEM education and helps get your buissness out there! </h2>
-
-</div>
+<div class="well">
+<center>
+    <h2>Duxbury Robotics</h2>
+    <p>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://player.vimeo.com/video/130433669" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/130433669">Robotics Documentary</a> from <a href="https://vimeo.com/dragontv">Dragon TV</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </div>
+    </p>
     <br>
-    <a class="btn btn-success btn-lg center-block" role="button" href="sponsorus.php" style=": center">Sponsor Us</a>
+    <a class="btn btn-primary btn-lg" role="button" href="sponsorus.php">Sponsor Us</a>
+</center>
 </div> <!-- end div in DuxburyRobotics.php -->
 
 <br>
