@@ -60,24 +60,24 @@ error_reporting(0); //Cuz' fuck em.
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="team.php">Our Team</a></li>
+                <li><a href="/team.php">Our Team</a></li>
                 <li class="dropdown">
-                    <a href="media.php">Media <span class="caret"></span></a>
+                    <a href="/media.php">Media <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="media.php/#Gallery">Gallery</a></li>
-                        <li><a href="media.php/#Videos">Videos</a></li>
-                        <li><a href="media.php/#archives">Archives</a></li>
+                        <li><a href="/media.php/#Gallery">Gallery</a></li>
+                        <li><a href="/media.php/#Videos">Videos</a></li>
+                        <li><a href="/media.php/#Archives">Archives</a></li>
                     </ul>
                 </li>
-                <li><a href="sponsors.php"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
-                <li class=""><a href="engineering.php"><span class="glyphicon glyphicon-apple"></span> Engineering Week</a></li>
+                <li><a href="/sponsors.php"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
+                <li class=""><a href="/engineering.php"><span class="glyphicon glyphicon-apple"></span> Engineering Week</a></li>
                 <!--                <li><a href="blog/">Blog</a></li>-->
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="social"><a href="http://twitter.com/DuxburyRobotics"><span class="glyphicons social-twitter"></span></a> </li>
                 <li class="social"><a href="http://fb.com/DuxburyRobotics"><span class="glyphicons social-facebook"></span></a></li>
                 <li class="social"><a href="http://instagram.com/DuxburyRobotics"><span class="glyphicons social-instagram"></span> </a> </li>
-                <li class="social"> <a href="contact.php"> <span class="glyphicons social-e-mail"></span></a></li>
+                <li class="social"> <a href="/contact.php"> <span class="glyphicons social-e-mail"></span></a></li>
             </ul>
         </div>
     </div>
@@ -94,7 +94,7 @@ error_reporting(0); //Cuz' fuck em.
     <footer>
         <p class="pull-right">FIRST FRC Team 4908 | <a href="http://admin.duxburyrobotics.com">
                 <span class="glyphicon glyphicon-dashboard"></span> Administration</a></p>
-        <p>Copyright © Duxbury Robotics </p>
+        <p> Copyright <?php echo date( 'Y' ); ?> © Duxbury Robotics </p>
     </footer>
 
 </div><!-- /.container -->

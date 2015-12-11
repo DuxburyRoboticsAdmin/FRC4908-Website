@@ -25,7 +25,7 @@
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
         <img class="img-circle" src="../img/managment.JPG" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-        <h2>Managment</h2>
+        <h2>Management</h2>
         <p>Any organization or company requires an organizing force. Our management team is responsible for managing the team’s finances, and generating public interest in robotics. Along the way, students learn the necessary skills that are required in the business world.</p>
     </div><!-- /.col-lg-4 -->
 </div><!-- /.row -->
