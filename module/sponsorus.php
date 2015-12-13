@@ -82,10 +82,7 @@
     <div class="col-md-4"></div>
     <div class="col-md-4">
 
-        <div class="btn-group dropdown" role="group">
-
-            <a class="btn btn-info btn-lg" role="button" href="mailto:robotics@duxbury.k12.ma.us?subject=Sponsorship">Volunteer</a>
-
+        <div class="dropdown" role="group">
             <button type="button" class="btn btn-success btn-lg dropdown-toggle" data-toggle="dropdown">
                 Get in Touch <span class="caret"></span>
             </button>
@@ -94,11 +91,11 @@
                 <li><a href="#">Phone </a></li>
                 <li><a href="#">Something else? </a></li>
             </ul>
-
+            <a class="btn btn-info btn-lg" role="button" href="mailto:robotics@duxbury.k12.ma.us?subject=Sponsorship">Volunteer</a>
 
         </div>
+    </div>
 </div>
-        </div>
 <br>
 <div class="container">
 

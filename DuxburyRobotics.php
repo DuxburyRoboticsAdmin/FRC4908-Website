@@ -63,7 +63,7 @@ error_reporting(0);
 <!-- nav bar-->
 <div id=""></div>
 <body>
-<div class="navbar navbar-default navbar-static-top" role="navigation">
+<div class="navbar navbar-default" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -76,7 +76,7 @@ error_reporting(0);
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="/team.php">Our Team</a></li>
+                <li><a href="/about.php">About Us</a></li>
                 <li class="dropdown onHover">
                     <a href="#" data-toggle="dropdown">Media <span class="caret"></span></a>
                     <ul class="dropdown-menu onHover" role="menu">
@@ -97,7 +97,7 @@ error_reporting(0);
             </ul>
         </div>
     </div>
-</div> <!-- /navbar -->
+</div><!-- /navbar -->
 
 <div class="container">
 
