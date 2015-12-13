@@ -1,8 +1,19 @@
 <h1 class="lead">What is FIRST? </h1>
-<p>FIRST is an international organization, which organizes educational competitions for students of all ages. The acronym F.I.R.S.T. stands for “For Inspiration and Recognition of Science and Technology.” The organization runs a series of unique competitions to engage students of all ages. Through the FIRST Lego League, and Junior Lego League, young elementary and middle school aged children are introduced to robotics and compete at FIRST organized events. Through the FIRST Tech Challenge, students from 7th through 12th grade build and compete using robots built with standard parts. However, Duxbury Robotics competes exclusively in another FIRST organized competition: the FIRST Robotics Competition, FIRST’s flagship competition.</p>
-
+<p>FIRST is an international organization, which organizes educational competitions for students of all ages.
+    The acronym F.I.R.S.T. stands for “For Inspiration and Recognition of Science and Technology.” The organization runs
+    a series of unique competitions to engage students of all ages. Through the FIRST Lego League and Junior Lego League,
+    young elementary and middle school aged children are introduced to robotics as they compete in challenges designed
+    to test their imagination and teamwork. In the FIRST Tech Challenge, students from 7th through 12th grade build
+    robots from standard parts and compete against other teams . Duxbury Robotics competes in another FIRST organized
+    competition: the FIRST Robotics Competition, FIRST’s flagship competition, which also entails building a robot
+    designed to win a specific challenge. In addition to the FIRST Robotics Competition, Duxbury Robotics mentors the
+    Duxbury Middle School FIRST Lego League Team by helping them learn to build and evaluate their very own robot.</p>
 <h1 class="lead">What is the FIRST Robotics Competition?</h1>
-<p>The varsity Sport for the Mind™, FRC combines the excitement of sport with the rigors of science and technology. Under strict rules, limited resources, and time limits, teams are challenged to raise funds, design a team "brand," hone teamwork skills, and build and program robots to perform prescribed tasks against a field of competitors.  It’s as close to "real-world engineering" as a student can get. Volunteer professional mentors lend their time and talents to guide each team.<sup>1</sup></p>
+<p>The varsity Sport for the Mind™, FRC combines the excitement of sport with the rigors of science and technology.
+    Under strict rules, limited resources, and time limits, teams are challenged to raise funds, design a team "brand,"
+    hone teamwork skills, and build and program robots to perform prescribed tasks against a field of competitors. It’s
+    as close to "real-world engineering" as a student can get. Volunteer professional mentors lend their time and talents
+    to guide each team.<sup>1</sup></p>
 
 <br>
 <p>

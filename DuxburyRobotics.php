@@ -1,10 +1,15 @@
 <?php
+/**
+ * Because we can't run stuff on the same port (for some reason!) we're redirecting people here.
+ */
+
+
 $domain = $_SERVER['SERVER_NAME'];
-if($domain == 'git.duxburyrobotics.com') {
+if($domain == 'git.duxburyrobotics.com') {  //Git Lab
     header('Location: http://git.duxburyrobotics.com:81');
 }
 
-error_reporting(0); //Cuz' fuck em.
+error_reporting(0);
 ?>
 
 <!DOCTYPE html>
@@ -20,10 +25,9 @@ error_reporting(0); //Cuz' fuck em.
 
     <title>Duxbury Robotics</title>
 
-    <!-- Bootstrap core CSS -->
+
     <link href="/css/bootstrap.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -37,16 +41,28 @@ error_reporting(0); //Cuz' fuck em.
             min-width: 100%;
             height: 500px;
         }
+
+
+        .navbar-brand > img {
+            max-height: 100%;
+            height: 70%;
+            width: auto;
+            margin: 0 auto;
+            -o-object-fit: contain;
+            object-fit: contain;
+        }
+
+        .navbar .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
     </style>
 
 </head>
 
-<!-- NAVBAR
-================================================== -->
+<!-- nav bar-->
 <div id=""></div>
-<body><!--
-    <div class="navbar-wrapper">
-      <div class="container">-->
+<body>
 <div class="navbar navbar-default navbar-static-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
@@ -56,22 +72,22 @@ error_reporting(0); //Cuz' fuck em.
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"><!--<img src="img/dragon.png" width="20px">-->  Duxbury Robotics</a>
+            <a class="navbar-brand" href="/"><img src="/img/DuxburyRoboticsLogo.png"> Duxbury Robotics</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li><a href="/team.php">Our Team</a></li>
-                <li class="dropdown">
-                    <a href="/media.php">Media <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="/media.php/#Gallery">Gallery</a></li>
-                        <li><a href="/media.php/#Videos">Videos</a></li>
-                        <li><a href="/media.php/#Archives">Archives</a></li>
+                <li class="dropdown onHover">
+                    <a href="#" data-toggle="dropdown">Media <span class="caret"></span></a>
+                    <ul class="dropdown-menu onHover" role="menu">
+                        <li><a href="/gallery.php">Gallery</a></li>
+                        <li><a href="/videos.php">Videos</a></li>
+                        <li><a href="/archives.php">Archives</a></li>
                     </ul>
                 </li>
                 <li><a href="/sponsors.php"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
                 <li class=""><a href="/engineering.php"><span class="glyphicon glyphicon-apple"></span> Engineering Week</a></li>
-                <!--                <li><a href="blog/">Blog</a></li>-->
+                <!--<li><a href="http://blog.duxburyrobotics.com">Blog</a></li>-->
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="social"><a href="http://twitter.com/DuxburyRobotics"><span class="glyphicons social-twitter"></span></a> </li>
@@ -81,14 +97,16 @@ error_reporting(0); //Cuz' fuck em.
             </ul>
         </div>
     </div>
-</div>
+</div> <!-- /navbar -->
 
 <div class="container">
 
     <?php require_once "module/$module.php"; ?>
 
-    <!-- FOOTER -->
+</div>
 
+<!-- footer -->
+<div class="container">
 
     <hr>
     <footer>
@@ -96,8 +114,9 @@ error_reporting(0); //Cuz' fuck em.
                 <span class="glyphicon glyphicon-dashboard"></span> Administration</a></p>
         <p> Copyright <?php echo date( 'Y' ); ?> © Duxbury Robotics </p>
     </footer>
+    <br>
 
-</div><!-- /.container -->
+</div><!-- /.footer -->
 
 
 <script src="/js/jquery.min.js"></script>
