@@ -76,9 +76,9 @@ error_reporting(0);
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="/about.php">About Us</a></li>
+                <li><a href="/about.php"><span class="glyphicon glyphicon-console"></span> About Us</a></li>
                 <li class="dropdown onHover">
-                    <a href="#" data-toggle="dropdown">Media <span class="caret"></span></a>
+                    <a href="" data-toggle="dropdown"><span class="glyphicon glyphicon-film"></span> Media <span class="caret"></span></a>
                     <ul class="dropdown-menu onHover" role="menu">
                         <li><a href="/gallery.php">Gallery</a></li>
                         <li><a href="/videos.php">Videos</a></li>
@@ -86,7 +86,14 @@ error_reporting(0);
                     </ul>
                 </li>
                 <li><a href="/sponsors.php"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
-                <li class=""><a href="/engineering.php"><span class="glyphicon glyphicon-apple"></span> Engineering Week</a></li>
+                <li class="dropdown onHover">
+                    <a href="" data-toggle="dropdown"><span class="glyphicon glyphicon-calendar"></span> Events <span class="caret"></span></a>
+                    <ul class="dropdown-menu onHover" role="menu">
+                        <li><a href="/events/engineering.php">Engineering Week</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/events/archives.php">Previous Events</a></li>
+                    </ul>
+                </li>
                 <!--<li><a href="http://blog.duxburyrobotics.com">Blog</a></li>-->
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -123,6 +130,9 @@ error_reporting(0);
 <script src="/js/bootstrap.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+
+<?php echo "<script>\$(function(){var module='$module';var btn=\$('#header-btn-'+module);var txt=btn.text();btn.addClass('active');document.title+=(' - '+txt);});</script>"; ?>
 
 
 </body>
