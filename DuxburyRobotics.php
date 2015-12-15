@@ -72,7 +72,7 @@ error_reporting(0);
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"><img src="/img/DuxburyRoboticsLogo.png"> Duxbury Robotics</a>
+            <a class="navbar-brand" href="/"> <img src="/img/DuxburyRoboticsLogo.png"></a><a class="navbar-brand" href="/"> Duxbury Robotics</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
