@@ -1,7 +1,9 @@
 <h1 style="text-align: center">Gallery</h1>
 <br>
 
+<h2>We're currently uploading all of our photos now! This will be online soon. </h2>
 
+<!--
 <div class="panel with-nav-tabs panel-default">
     <div class="panel-heading">
         <ul class="nav nav-tabs">
@@ -24,6 +26,4 @@
         </div>
     </div>
 </div>
-
-
-
+-->

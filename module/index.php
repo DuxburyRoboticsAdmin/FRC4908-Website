@@ -9,7 +9,7 @@
                     <div class="caption">
                         <h3>Team 4908</h3>
                         <p>We are not a team, we are a family. </p>
-                        <p><a href="team.php" class="btn btn-primary" role="button">Learn More</a></p>
+                        <p><a href="about.php" class="btn btn-primary" role="button">Learn More</a></p>
                         <hr>
                         <h3>FIRST Robotics</h3>
                         <p>We're a FIRST Robotics team. </p>
