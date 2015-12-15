@@ -1,20 +1,4 @@
-<div class="well">
-<center>
-    <h2>Duxbury Robotics</h2>
-    <p>
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe src="https://player.vimeo.com/video/130433669" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/130433669">Robotics Documentary</a> from <a href="https://vimeo.com/dragontv">Dragon TV</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-    </div>
-    </p>
-    <br>
-    <a class="btn btn-primary btn-lg" role="button" href="sponsorus.php">Sponsor Us</a>
-</center>
-</div> <!-- end div in DuxburyRobotics.php -->
-
 <br>
-<br>
-<br>
-
 <div class="container marketing">
 
     <div class="row">
