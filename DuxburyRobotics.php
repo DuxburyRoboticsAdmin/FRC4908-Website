@@ -131,9 +131,5 @@ error_reporting(0);
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="/js/ie10-viewport-bug-workaround.js"></script>
 
-
-<?php echo "<script>\$(function(){var module='$module';var btn=\$('#header-btn-'+module);var txt=btn.text();btn.addClass('active');document.title+=(' - '+txt);});</script>"; ?>
-
-
 </body>
 </html>
