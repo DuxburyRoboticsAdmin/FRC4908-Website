@@ -43,7 +43,7 @@ error_reporting(0);
         }
 
 
-        .navbar-brand > img {
+        .navbar-brand img {
             max-height: 100%;
             height: 70%;
             width: auto;
