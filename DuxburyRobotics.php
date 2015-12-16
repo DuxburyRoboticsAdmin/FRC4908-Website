@@ -94,7 +94,7 @@ error_reporting(0);
                         <li><a href="/events/archives.php">Previous Events</a></li>
                     </ul>
                 </li>
-                <li><a href="volunteers.php"><span class="glyphicon glyphicon-user"></span>Volunteers</a></li>
+                <li><a href="/volunteers.php"><span class="glyphicon glyphicon-user"></span>Volunteers</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="social"><a href="http://twitter.com/DuxburyRobotics"><span class="glyphicons social-twitter"></span></a> </li>
