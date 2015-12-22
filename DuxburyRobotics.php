@@ -86,15 +86,8 @@ error_reporting(0);
                     </ul>
                 </li>
                 <li><a href="/sponsors.php"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
-                <li class="dropdown onHover">
-                    <a href="" data-toggle="dropdown"><span class="glyphicon glyphicon-calendar"></span> Events <span class="caret"></span></a>
-                    <ul class="dropdown-menu onHover" role="menu">
-                        <li><a href="/events/engineering.php">Engineering Week</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="/events/archives.php">Previous Events</a></li>
-                    </ul>
-                </li>
-                <li><a href="volunteers.php"><span class="glyphicon glyphicon-user"></span>Volunteers</a></li>
+                <li><a href="/events.php"><span class="glyphicon glyphicon-calendar"></span> Events</a> </li>
+                <li><a href="/volunteers.php"><span class="glyphicon glyphicon-user"></span> Volunteer</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="social"><a href="http://twitter.com/DuxburyRobotics"><span class="glyphicons social-twitter"></span></a> </li>

@@ -1,5 +1,5 @@
 <div>
-    <h1>Archives</h1>
+    <h1>Previous Events</h1>
 
     <br>
     <br>
