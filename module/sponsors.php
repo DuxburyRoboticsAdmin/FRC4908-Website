@@ -6,7 +6,9 @@
         <!--<p><a href="../contact/">"<img src="../img/sponsor/become.jpg"></a></p>-->
         <br>
         <hr>
-        <h4>Help us become something great.</h4>
-        <br>
+        <h4>Help us become something great</h4>
         <a class="btn btn-primary btn-lg" role="button" href="sponsorus.php">Sponsor Us</a>
     </center>
+
+    <br>
+    <br>
