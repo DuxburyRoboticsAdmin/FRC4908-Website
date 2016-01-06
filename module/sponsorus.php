@@ -1,7 +1,7 @@
 <center>
     <h1 class=""><span class="glyphicon glyphicon-heart-empty"></span> Sponsor Us</h1>
     <br>
-    <p><img src="../img/sponsor/AirCycler.jpg" width="35%"> &emsp;&emsp; <img src="../img/sponsor/ptc.png" width="38%"></p>
+    <p><img src="../img/sponsor/AirCycler.gif" width="35%"> &emsp;&emsp; <img src="../img/sponsor/ptc.png" width="38%"></p>
     <p><img src="../img/sponsor/conway.png" width="35%"><img src="../img/sponsor/tri.png" width="40%"></p>
     <p><img src="../img/DEF.png" width="25%"> <img src="/img/sponsor/FHPeterson.jpg"></p>
 
