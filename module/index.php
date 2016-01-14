@@ -53,6 +53,32 @@
     <hr>
 
     <center>
-        <p><a href="http://www.aircycler.com/"><img src="/img/sponsor/AirCycler.gif" width="25%"></a> &emsp;&emsp; <a href="http://ptc.com"><img src="/img/sponsor/ptc.png" width="19%"></a> <a href="http://www.conwayins.com/"><img src="/img/sponsor/conway.png" width="25%"></a><a href="http://www.trieng.com/"><img src="/img/sponsor/tri.png" width="24%"></a> <a href="http://www.duxburyeducationfoundation.org/"><img src="/img/DEF.png"></a> <a href="http://fhpetersonmachine.com/"> <img src="/img/sponsor/FHPeterson.jpg"></a> </p>
-        <p></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../img/sponsor/AirCycler.gif" width="100%">
+                </div>
+                <div class="col-md-4">
+                    <img src="../img/sponsor/ptc.png" width="100%">
+                </div>
+                <div class="col-md-4">
+                    <img src="../img/sponsor/goodrich.png" width="75%">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../img/sponsor/tri.png" width="100%">
+                </div>
+                <div class="col-md-4">
+                    <img src="../img/DEF.png" width="75%">
+                </div>
+                <div class="col-md-4">
+                    <br>
+                    <img src="../img/sponsor/FHPeterson.jpg" width="100%">
+                </div>
+            </div>
+        </div>
     </center>

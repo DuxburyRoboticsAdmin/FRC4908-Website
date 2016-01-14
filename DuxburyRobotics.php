@@ -3,11 +3,15 @@
  * Because we can't run stuff on the same port (for some reason!) we're redirecting people here.
  */
 
-
 $domain = $_SERVER['SERVER_NAME'];
+
 if($domain == 'git.duxburyrobotics.com') {  //Git Lab
     header('Location: http://git.duxburyrobotics.com:81');
 }
+if($domain == 'parts.duxburyrobotics.com') {
+    header('Location: http://parts.duxburyrobotics.com:9000');
+}
+
 
 error_reporting(0);
 ?>
@@ -77,17 +81,9 @@ error_reporting(0);
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li><a href="/about.php"><span class="glyphicon glyphicon-console"></span> About Us</a></li>
-                <li class="dropdown onHover">
-                    <a href="" data-toggle="dropdown"><span class="glyphicon glyphicon-film"></span> Media <span class="caret"></span></a>
-                    <ul class="dropdown-menu onHover" role="menu">
-                        <li><a href="/gallery.php">Gallery</a></li>
-                        <li><a href="/videos.php">Videos</a></li>
-                        <li><a href="/archives.php">Archives</a></li>
-                    </ul>
-                </li>
                 <li><a href="/sponsors.php"><span class="glyphicon glyphicon-heart-empty"></span> Sponsors</a></li>
-                <li><a href="/events.php"><span class="glyphicon glyphicon-calendar"></span> Events</a> </li>
                 <li><a href="/volunteers.php"><span class="glyphicon glyphicon-user"></span> Volunteer</a></li>
+                <li><a href="http://blog.duxburyrobotics.com"><span class="glyphicon glyphicon-list-alt"></span> Blog</a> </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="social"><a href="http://twitter.com/DuxburyRobotics"><span class="glyphicons social-twitter"></span></a> </li>

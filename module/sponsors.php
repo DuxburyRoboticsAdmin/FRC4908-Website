@@ -1,9 +1,34 @@
     <center>
         <h1 class=""><span class="glyphicon glyphicon-heart-empty"></span> Our Sponsors</h1>
         <br>
-        <p><img src="../img/sponsor/AirCycler.gif" width="35%"> &emsp;&emsp; <img src="../img/sponsor/ptc.png" width="33%"> <img src="../img/DEF.png"></p>
-        <p><img src="../img/sponsor/conway.png" width="40%"> <img src="../img/sponsor/tri.png" width="34%"> <img src="/img/sponsor/FHPeterson.jpg"></p>
-        <!--<p><a href="../contact/">"<img src="../img/sponsor/become.jpg"></a></p>-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../img/sponsor/AirCycler.gif" width="100%">
+                </div>
+                <div class="col-md-4">
+                    <img src="../img/sponsor/ptc.png" width="100%">
+                </div>
+                <div class="col-md-4">
+                    <img src="../img/sponsor/goodrich.png" width="75%">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../img/sponsor/tri.png" width="100%">
+                </div>
+                <div class="col-md-4">
+                    <img src="../img/DEF.png" width="75%">
+                </div>
+                <div class="col-md-4">
+                    <br>
+                    <img src="../img/sponsor/FHPeterson.jpg" width="100%">
+                </div>
+            </div>
+        </div>
         <br>
         <hr>
         <h4>Help us become something great</h4>
