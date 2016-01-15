@@ -41,16 +41,17 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
     <nav class="navbar navbar-default" rel="navigation">
         <a class="navbar-brand" href="/">Duxbury Robotics</a>
         <ul class="nav navbar-nav pull-md-right">
-            <li class="nav-item"><a class="nav-link" href="/about.php">About</a></li>
-            <!--<li class="dropdown nav-item">
+            <li class="dropdown nav-item">
                 <a href="" data-toggle="dropdown" class="nav-link">Team <span class="mdi mdi-plus-circle-outline"></span></a>
                 <ul class="dropdown-menu onHover" role="menu">
-                    <li><a href="/team.php">Meet The Team</a></li>
+                    <!--<li><a href="/team.php">Meet The Team</a></li>
                     <li><a href="/alumni.php">Alumni</a></li>
                     <li><a href="/robots.php">Robots</a> </li>
-                    <li><a href="/gallery.php">Gallery</a> </li>
+                    <li><a href="/gallery.php">Gallery</a> </li>-->
+                    <li><a href="/about.php">About</a> </li>
+                    <li><a href="/contact.php">Contact Us</a> </li>
                 </ul>
-            </li> -->
+            </li>
             <li class="nav-item"><a class="nav-link" href="/sponsor.php">Sponsor</a></li>
             <!--<li class="nav-item"><a class="nav-link" href="events.php">Events</a></li>-->
             <li class="dropdown nav-item">

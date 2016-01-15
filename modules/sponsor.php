@@ -5,7 +5,6 @@
 </section>
 
 <section class="section content" id="sponsors">
-    <center><p><h1>Current Sponsors</h1></p></center>
     <br>
     <?php include_once('sponsorRows.php');?>
 
