@@ -29,9 +29,9 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <link rel="stylesheet" href="/css/robotics.css">
         <link rel="stylesheet" href="/css/bootstrapv4.css">
         <link rel="stylesheet" href="/css/materialdesignicons.min.css">
+        <link rel="stylesheet" href="/css/robotics.css">
 
 </head>
 
@@ -41,17 +41,17 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
 <!--/Google tracking -->
 
     <nav class="navbar navbar-default" rel="navigation">
-        <a class="navbar-brand" href="/">Duxbury Robotics</a>
+        <a class="navbar-brand" href="/"><strong>Duxbury Robotics</strong></a>
         <ul class="nav navbar-nav pull-md-right">
             <li class="dropdown nav-item">
                 <a href="" data-toggle="dropdown" class="nav-link">Team <span class="mdi mdi-plus-circle-outline"></span></a>
-                <ul class="dropdown-menu onHover" role="menu">
+                <ul class="dropdown-menu greencolor" role="menu">
                     <!--<li><a href="/team.php">Meet The Team</a></li>
                     <li><a href="/alumni.php">Alumni</a></li>
                     <li><a href="/robots.php">Robots</a> </li>
                     <li><a href="/gallery.php">Gallery</a> </li>-->
-                    <li><a href="/about.php">About</a> </li>
-                    <li><a href="/contact.php">Contact Us</a> </li>
+                    <li><a href="/about.php" class="greencolor">About</a> </li>
+                    <li><a href="/contact.php" class="greencolor">Contact Us</a> </li>
                 </ul>
             </li>
             <li class="nav-item"><a class="nav-link" href="/sponsor.php">Sponsor</a></li>
@@ -59,8 +59,8 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
             <li class="dropdown nav-item">
                 <a href="" data-toggle="dropdown" class="nav-link">Contribute <span class="mdi mdi-plus-circle-outline"></span></a>
                 <ul class="dropdown-menu onHover" role="menu">
-                    <li><a href="/volunteer.php">Volunteer</a></li>
-                    <li><a href="/donate.php">Donate </a></li>
+                    <li><a href="/volunteer.php" class="greencolor">Volunteer</a></li>
+                    <li><a href="/donate.php" class="greencolor">Donate </a></li>
                 </ul>
             </li>
             <li class="nav-item"><a class="nav-link" href="http://blog.duxburyrobotics.com/">Blog</a></li>
