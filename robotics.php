@@ -31,12 +31,14 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
 
         <link rel="stylesheet" href="/css/robotics.css">
         <link rel="stylesheet" href="/css/bootstrapv4.css">
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic,500,500italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/materialdesignicons.min.css">
 
 </head>
 
 <body>
+<!-- Google tracking -->
+    <?php include_once("js/analyticstracking.php") ?>
+<!--/Google tracking -->
 
     <nav class="navbar navbar-default" rel="navigation">
         <a class="navbar-brand" href="/">Duxbury Robotics</a>
@@ -82,6 +84,7 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
     <script src="/js/bootstrap.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/robotics.js"></script>
+
 
 </body>
 

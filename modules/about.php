@@ -1,4 +1,4 @@
-<section class="section parallax parallax-1" id="home">
+<section class="section parallax parallax-about" id="home">
     <div class="container">
         <h1>About Us</h1>
     </div>

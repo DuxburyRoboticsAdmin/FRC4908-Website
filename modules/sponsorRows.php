@@ -19,9 +19,17 @@
     <br>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <img src="../img/sponsor/tri.png" width="200%">
+            <!--<div class="col-md-4">
+                <img src="../img/sponsor/NEWSPONSORHERE" width="200%">
             </div>
+            <div class="col-md-4">
+                <img src="../img/DEF.png" width="">
+            </div>
+            <div class="col-md-4">
+                <br>
+                <img src="../img/sponsor/FHPeterson.jpg" width="">
+            </div>-->
+            <div class="col-md-2"></div>
             <div class="col-md-4">
                 <img src="../img/DEF.png" width="">
             </div>

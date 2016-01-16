@@ -1,4 +1,4 @@
-<section class="section parallax parallax-1" id="home">
+<section class="section parallax parallax-sponsor" id="home">
     <div class="container">
         <h1>Sponsors</h1>
     </div>
@@ -86,23 +86,15 @@
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-success btn-lg dropdown-toggle" data-toggle="dropdown" role="button">Get in Touch <span class="caret"></span></button>
-                        <ul class="dropdown-menu">
-                            <li><a href="mailto:robotics@Duxbury.k12.ma.us?subject=Sponsor Duxbury Robotics">Email</a></li>
-                            <li><a href="">Phone - (781) 934 - 7650 x 4142</a></li>
-                        </ul>
-                    </div>
+                    <a class="btn btn-success btn-lg" href="/contact.php" data-toggle="dropdown" role="button">Get in Touch </a>
                     <br>
+                    <a class="btn btn-info btn-lg" role="button" href="/volunteer.php">Volunteer</a>
                     <br>
-                    <a class="btn btn-info btn-lg" role="button" href="mailto:robotics@duxbury.k12.ma.us?subject=Volunteer">Volunteer</a>
+                    <a class="btn btn-warning btn-lg" role="button" href="/donate.php">Donate</a>
                     <br>
-                    <a class="btn btn-warning btn-lg" role="button" href="mailto:robotics@duxbury.k12.ma.us?subject=Help Donate to Duxbury Robotics">Donate</a>
                 </div>
             </div>
         </div>
     <br>
 </div>
-
-
 </section>
