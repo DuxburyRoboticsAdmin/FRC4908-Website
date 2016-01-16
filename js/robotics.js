@@ -1,12 +1,12 @@
 $(function(){
     $('.parallax-index').parallax({
-        imageSrc: '/img/RedAlliance.JPG'
+        imageSrc: '/img/4908-14-robot.JPG'
     });
 });
 
 $(function(){ //(temp page)
     $('.parallax-about').parallax({
-        imageSrc: '/img/4908-14-robot.JPG'
+        imageSrc: '/img/RedAlliance.JPG'
     });
 });
 
@@ -29,4 +29,4 @@ $(function(){
     });
 });
 
-//SmartDudeSigningBalls.jpg
+//SmartDudeSigningBalls.jpgkjjmn
