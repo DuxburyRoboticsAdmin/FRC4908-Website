@@ -1,8 +1,3 @@
 <?php
-
-$module = basename(__FILE__, ".php");
-require_once 'DuxburyRobotics.php';
-
-
-?>
-
+$module = basename(__FILE__, '.php');
+include_once('robotics.php');

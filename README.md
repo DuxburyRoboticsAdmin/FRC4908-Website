@@ -1,10 +1,6 @@
 ### Duxbury Robotics Websute ###
 
-# Current List of Sponsors #
+# Potential Sponsors #
+Entergy
+Roach brothers
 
--NASA
--AirCycler
--PTC
--Conway Insurance
--TE Welding Service
--Duxbury Education Foundation (DEF)
