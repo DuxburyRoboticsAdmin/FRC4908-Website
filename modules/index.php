@@ -6,21 +6,16 @@
 
 <section class="section content" id="">
     <div class="container">
-        <dic class="row">
+        <!--<dic class="row">
             <div class="col-lg-11">
-                <p>Founded in 2012, Duxbury Robotics started out as merely a co-curricular club. In 2014, Duxbury
-                    Robotics joined FIRST Robotics and the team was officially born! Duxbury Robotics is now known as
-                    FRC Team 4908 and competes in the FIRST Robotics Competitions throughout New England. Today, the
-                    team is now over forty students strong and still growing. While Duxbury Robotics is young, it has
-                    accomplished a great deal in its short existence. In its very first year of competition, team 4908
-                    won the Rookie Inspiration Award, the Highest Rookie Seed Award, Rookie All Star Award, as well as
-                    winning the UMass Dartmouth event in 2015.</p>
+                <p class="lead">Duxbury Robotics is committed to helping promote STEM education. With your help you can
+                help Duxbury Robotics become greater than its previous years. </p>
                 <button href="/about.php" class="btn btn-success btn-lg pull-right">Learn More</button>
             </div>
         </dic>
 
         <br>
-        <hr>
+        <hr>-->
 
         <div class="row">
             <div class="col-md-4">

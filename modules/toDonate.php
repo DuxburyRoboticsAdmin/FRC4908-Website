@@ -11,7 +11,7 @@
                 </p>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-responsive" src="../img/LeRobot.JPG" alt="Generic placeholder image">
+                <img class="featurette-image img-responsive" src="../img/robot2.jpg" alt="Generic placeholder image">
             </div>
         </div>
 
@@ -19,7 +19,7 @@
 
         <div class="row featurette">
             <div class="col-md-5">
-                <img class="featurette-image img-responsive" src="../img/phone.JPG" alt="Generic placeholder image">
+                <img class="featurette-image img-responsive" src="../img/badge.jpg" alt="Generic placeholder image">
             </div>
             <div class="col-md-7">
                 <p class="lead"><strong>Science, Technology, Engineering, and Mathematics</strong> are the groundworks
