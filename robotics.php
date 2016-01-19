@@ -29,7 +29,7 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <link rel="stylesheet" href="/css/bootstrapv4.css">
+        <link rel="stylesheet" href="/css/bootstrapunited.css">
         <link rel="stylesheet" href="/css/materialdesignicons.min.css">
         <link rel="stylesheet" href="/css/robotics.css">
 
@@ -40,40 +40,55 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
     <?php include_once("js/analyticstracking.php") ?>
 <!--/Google tracking -->
 
-    <nav class="navbar navbar-default" rel="navigation">
-        <a class="navbar-brand" href="/"><strong>Duxbury Robotics</strong></a>
-        <ul class="nav navbar-nav pull-md-right">
-            <li class="dropdown nav-item">
-                <a href="" data-toggle="dropdown" class="nav-link">Team <span class="mdi mdi-plus-circle-outline"></span></a>
-                <ul class="dropdown-menu greencolor" role="menu">
-                    <!--<li><a href="/team.php">Meet The Team</a></li>
-                    <li><a href="/alumni.php">Alumni</a></li>
-                    <li><a href="/robots.php">Robots</a> </li>
-                    <li><a href="/gallery.php">Gallery</a> </li>-->
-                    <li><a href="/about.php" class="greencolor">About</a> </li>
-                    <li><a href="/contact.php" class="greencolor">Contact Us</a> </li>
-                </ul>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="/sponsor.php">Sponsor</a></li>
-            <!--<li class="nav-item"><a class="nav-link" href="events.php">Events</a></li>-->
-            <li class="dropdown nav-item">
-                <a href="" data-toggle="dropdown" class="nav-link">Contribute <span class="mdi mdi-plus-circle-outline"></span></a>
-                <ul class="dropdown-menu onHover" role="menu">
-                    <li><a href="/volunteer.php" class="greencolor">Volunteer</a></li>
-                    <li><a href="/donate.php" class="greencolor">Donate </a></li>
-                </ul>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="http://blog.duxburyrobotics.com/">Blog</a></li>
-        </ul>
-    </nav>
+<nav class="navbar navbar-default">
+    <div class="container-fluid  navbar-static-top">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse">
 
+            <a href="/" class="navbar-brand">Duxbury Robotics</a>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Team <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <!--<li><a href="/team.php">Meet The Team</a></li>
+                        <li><a href="/alumni.php">Alumni</a></li>
+                        <li><a href="/robots.php">Robots</a> </li>
+                        <li><a href="/gallery.php">Gallery</a> </li>-->
+                        <li><a href="/about.php">About</a> </li>
+                        <li><a href="/contact.php">Contact Us</a> </li>
+                    </ul>
+                </li>
+                <li><a class="nav-link" href="/sponsor.php">Sponsor</a></li>
+                <!--<li><a class="nav-link" href="/events.php">Events</a></li>-->
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/donate.php">Donate</a></li>
+                        <li><a href="/volunteer.php">Volunteer</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://blog.duxburyrobotics.com">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 <?php require_once "modules/$module.php"; ?>
 
     <footer>
         <hr />
         <div class="container">
-            <p class="text-right">Copyright &copy; Duxbury Robotics 2013-2016 | <a href="http://admin.duxburyrobotics.com/"><span class="mdi mdi-speedometer"></span> Administration</a> </p>
+            <p class="">Copyright &copy; Duxbury Robotics 2013-2016 | <a href="http://admin.duxburyrobotics.com/"><span class="mdi mdi-speedometer"></span> Administration</a> </p>
+            <p></p>
         </div>
     </footer>
 

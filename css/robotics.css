@@ -19,23 +19,8 @@
  *
  */
 
-.navbar-brand,
-.nav-link,
-.greencolor {
-    color: #37833d;
-}
-
-.navbar-brand:hover,
-.navbar-brand:focus,
-.nav-link:hover,
-.nav-link:focus,
-.greencolor:hover,
-.greencolor:focus {
-    color: #295429;
-}
-
-.dropdown-menu {
-    padding-bottom: 5px;
+.dropdown > .dropdown-menu a:hover {
+    background-color: #1a5322;
 }
 
 
@@ -44,7 +29,7 @@ html {
 }
 
 body {
-    background-color: #ecf0f1;
+    background-color: #fff;
     min-width: 300px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;

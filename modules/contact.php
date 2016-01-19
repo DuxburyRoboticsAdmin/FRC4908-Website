@@ -15,7 +15,7 @@
         <br>
         <div class="col-md-4"></div>
         <div class="col-md-4">
-            <p><a class="btn btn-primary btn-md" role="button" href="/sponsor.php">Sponsor Us</a> </p>
+            <p><a class="btn btn-success btn-md" role="button" style="background-color: #1a5322;border: none" href="/sponsor.php">Sponsor Us</a> </p>
         </div>
     </div>
 </section>
