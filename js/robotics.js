@@ -1,6 +1,6 @@
 $(function(){
     $('.parallax-index').parallax({
-        imageSrc: '/img/4908-14-robot.JPG'
+        imageSrc: '/img/4908-14-Robot.JPG'
     });
 });
 
