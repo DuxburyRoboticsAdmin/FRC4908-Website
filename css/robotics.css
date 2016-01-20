@@ -23,6 +23,18 @@
     background-color: #1a5322;
 }
 
+.btn-primary,
+.btn-primary:active,
+.btn-primary::selection,
+.btn-primary:focus {
+    background-color: #1a5322;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1b441e;
+    border: none;
+}
 
 html {
     box-sizing: border-box;
