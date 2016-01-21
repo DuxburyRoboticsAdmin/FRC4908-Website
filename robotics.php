@@ -65,7 +65,13 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
                         <li><a href="/contact.php">Contact Us</a> </li>
                     </ul>
                 </li>
-                <li><a class="nav-link" href="/sponsor.php">Sponsor</a></li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sponsor <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/sponsors.php">Sponsors</a> </li>
+                        <li><a href="/sponsorus.php">Sponsor Us</a> </li>
+                    </ul>
+                </li>
                 <!--<li><a class="nav-link" href="/events.php">Events</a></li>-->
                 <li class="dropdown">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>

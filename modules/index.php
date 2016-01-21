@@ -30,9 +30,9 @@
                     <img src="/img/teambanner.JPG">
                     <center>
                         <div class="caption">
-                            <h3>Team 4908</h3>
-                            <p>We are not a team, we are a family. </p>
-                            <p><a href="about.php" class="btn btn-primary" role="button">Learn More</a></p>
+                            <h3>Duxbury Robotics Blog</h3>
+                            <p>Check out our blog with weekly video updates and more! </p>
+                            <p><a href="http://blog.duxburyrobotics.com" class="btn btn-info" role="button">View the Blog</a></p>
                             <hr>
                             <h3>FIRST Robotics</h3>
                             <p>We're a FIRST Robotics team. </p>
@@ -61,11 +61,11 @@
                         <div class="caption">
                             <h3>Our sponsors</h3>
                             <p>Power to the team. </p>
-                            <p><a href="sponsor.php" class="btn btn-primary" role="button">Learn More</a></p>
+                            <p><a href="sponsors.php" class="btn btn-primary" role="button">Learn More</a></p>
                             <hr>
                             <h3>Sponsor Us </h3>
                             <p>Robotics is expensive. We operate on a tight budget. With your help, we can achieve so much more.</p>
-                            <p><a href="sponsor.php#sponsorus" class="btn btn-primary" role="button">Sponsor Us</a></p>
+                            <p><a href="sponsorus.php" class="btn btn-primary" role="button">Sponsor Us</a></p>
                         </div>
                     </center>
                 </div>
