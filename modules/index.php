@@ -5,7 +5,14 @@
 </section>
 
 <section class="section content" id="">
+
     <div class="container">
+        <p class="blurb">
+            <strong>
+                We are the Duxbury Robotics team, and each year we participate in the First Robotics Competition as Team 4908.
+                We are currently in our third year as the team, and we now have almost 40 members.
+            </strong>
+        </p>
         <!--<dic class="row">
             <div class="col-lg-11">
                 <p class="lead">Duxbury Robotics is committed to helping promote STEM education. With your help you can
@@ -23,9 +30,9 @@
                     <img src="/img/teambanner.JPG">
                     <center>
                         <div class="caption">
-                            <h3>Team 4908</h3>
-                            <p>We are not a team, we are a family. </p>
-                            <p><a href="about.php" class="btn btn-primary" role="button">Learn More</a></p>
+                            <h3>Duxbury Robotics Blog</h3>
+                            <p>Check out our blog with weekly video updates and more! </p>
+                            <p><a href="http://blog.duxburyrobotics.com" class="btn btn-info" role="button">View the Blog</a></p>
                             <hr>
                             <h3>FIRST Robotics</h3>
                             <p>We're a FIRST Robotics team. </p>
@@ -54,11 +61,11 @@
                         <div class="caption">
                             <h3>Our sponsors</h3>
                             <p>Power to the team. </p>
-                            <p><a href="sponsor.php" class="btn btn-primary" role="button">Learn More</a></p>
+                            <p><a href="sponsors.php" class="btn btn-primary" role="button">Learn More</a></p>
                             <hr>
                             <h3>Sponsor Us </h3>
                             <p>Robotics is expensive. We operate on a tight budget. With your help, we can achieve so much more.</p>
-                            <p><a href="sponsor.php#sponsorus" class="btn btn-primary" role="button">Sponsor Us</a></p>
+                            <p><a href="sponsorus.php" class="btn btn-primary" role="button">Sponsor Us</a></p>
                         </div>
                     </center>
                 </div>
