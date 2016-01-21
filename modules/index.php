@@ -9,7 +9,7 @@
     <div class="container">
         <p class="blurb">
             <strong>
-                We are the Duxbury Robotics team, and each year we participate in the First Robotics Competition as Team 4908.
+                We are the Duxbury Robotics team, and each year we participate in the FIRST Robotics Competition as Team 4908.
                 We are currently in our third year as the team, and we now have almost 40 members.
             </strong>
         </p>
