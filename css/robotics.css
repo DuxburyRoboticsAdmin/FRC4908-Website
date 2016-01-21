@@ -36,6 +36,14 @@
     border: none;
 }
 
+
+.blurb {
+    text-align: center;
+    font-size: 125%;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
 html {
     box-sizing: border-box;
 }

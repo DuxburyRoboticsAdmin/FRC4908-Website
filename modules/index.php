@@ -5,7 +5,14 @@
 </section>
 
 <section class="section content" id="">
+
     <div class="container">
+        <p class="blurb">
+            <strong>
+                We are the Duxbury Robotics team, and each year we participate in the First Robotics Competition as Team 4908.
+                We are currently in our third year as the team, and we now have almost 40 members.
+            </strong>
+        </p>
         <!--<dic class="row">
             <div class="col-lg-11">
                 <p class="lead">Duxbury Robotics is committed to helping promote STEM education. With your help you can
