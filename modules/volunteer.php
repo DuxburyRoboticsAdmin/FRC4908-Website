@@ -6,13 +6,46 @@
 
 <section class="section content" id="volunteer">
     <div class="container" style = "text-align: center;">
-        <h2>WE NEED YOUR HELP!</h2>
-        <p>Duxbury Robotics needs your help! Volunteers with any level of engineering, programming, marketing, CAD or any type of experience are invited to join us in developing and building our robot for the FIRST Robotics Competition!</p>
+        <center>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="img-circle" src="../img/enegnering.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                    <h2>Engineers</h2>
+                    <p>
+                        We are always looking for experienced engineers to share their knowledge with our students. Professionals
+                        offer expertise which is crucial to the learning process.
+                    </p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-circle" src="../img/programing.JPG" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                    <h2>Programmers</h2>
+                    <p>
+                        Programming is a fundamental part of robotics without which nothing would work. Computer languages
+                        provide the intelligence necessary to complete the tasks required of our robot. Having the help
+                        of programmers with experience would greatly help the team.
+                    </p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-circle" src="../img/managment.JPG" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                    <h2>Business Owners</h2>
+                    <p>
+                        Sponsors are a big part of FIRST since they supply the grants that allow teams to make robots do
+                        different things. We would be very grateful if any businesses would like to donate to our team.
+                    </p>
+                </div><!-- /.col-lg-4 -->
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <p>Community members interested in volunteering their time can contact us at:
+                    <br>
+                    <a href="mailto:robotics@duxbury.k12.ma.us?subject=Volunteer with Duxbury Robotics">robotics@duxbury.k12.ma.us</a>
+                    or<br>
+                    (781) 934-7650 x4142
+                </p>
 
-        <p>The FIRST Robotics Competition offers an introduction to various aspects of STEM education in a fun and exciting way for high school students. With your help, we can continue to inspire students, as well as create a learning environment very different from the traditional classroom setting.</p>
 
-        <p>Safety is a priority. Please print and complete a <a href="http://www.duxbury.k12.ma.us/cms/lib2/MA01001583/Centricity/Domain/67/CORI%20FORM%20AND%20POLICY.pdf">CORI</a> form in order to ensure the safety of our team.</p>
-
-        <p>Community members interested in volunteering their time can contact <a href="mailto:robotics@duxbury.k12.ma.us?subject=Volunteer with Duxbury Robotics">robotics@duxbury.k12.ma.us</a> or (781) 934-7650 x4142 for more information.</p>
+            </div>
+        </center>    <!-- /.row -->
     </div>
 </section>
