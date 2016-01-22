@@ -1,6 +1,8 @@
-### Duxbury Robotics Websute ###
+# Duxbury Robotics Website #
 
-# Potential Sponsors #
+### Potential New Sponsors That I Should Add to the Website Soon ###
+
 Entergy
+
 Roach brothers
 
