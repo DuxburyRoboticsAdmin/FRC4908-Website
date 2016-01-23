@@ -32,6 +32,7 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
         <link rel="stylesheet" href="/css/bootstrapunited.css">
         <link rel="stylesheet" href="/css/materialdesignicons.min.css">
         <link rel="stylesheet" href="/css/robotics.css">
+        <link rel="stylesheet" href="/css/bootcards-desktop.css">
 
 </head>
 
