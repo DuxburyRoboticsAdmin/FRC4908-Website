@@ -33,6 +33,16 @@ if ($result->num_rows > 0) {
 }
 */
 
+
+/**
+ * New Idea
+ *
+ * Have a task run after editing Data on the backend.
+ * That task would then re-create the HTML needed for the Alumni and meet the team.
+ *
+ * I like that idea more.
+ */
+
 ?>
 
 <section class="section parallax parallax-sponsor" id="home">
@@ -94,6 +104,15 @@ if ($result->num_rows > 0) {
 
 
         ?>
+
+
+
+
+        <iframe src="/modules/crontasks/includeWithTest.php"></iframe>
+        <h2>I</h2>
+
+        <!--
+
 
         <div class="row">
             <div class="col-lg-4">
@@ -171,8 +190,9 @@ if ($result->num_rows > 0) {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
+
 </section>
 <?php
 //Close the connection.
