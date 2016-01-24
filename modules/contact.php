@@ -4,7 +4,7 @@
         <br>
         <address>
             <strong>Duxbury High School</strong><br>
-            <strong>Attn: Duxbury Robotics/Cheryl Lewis</strong><br>
+            <strong>Attn: Duxbury Robotics/Matt Files</strong><br>
             71 Alden Street<br>
             Duxbury, MA 02332<br>
             United States of America<br><br>
