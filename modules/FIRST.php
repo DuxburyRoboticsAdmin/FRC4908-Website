@@ -1,8 +1,7 @@
 <section class="section content" id="sponsors">
-    <p style="text-align: center"><h1>USFIRST</h1></p>
-    <br>
-
     <div class="container">
+        <p style="text-align: center"><h1>USFIRST</h1></p>
+        <br>
         <h1 class="lead">What is FIRST? </h1>
         <p>FIRST is an international organization, which organizes educational competitions for students of all ages.
             The acronym F.I.R.S.T. stands for “For Inspiration and Recognition of Science and Technology.” The organization runs
