@@ -1,6 +1,6 @@
 <section class="section content" id="sponsors">
     <div class="container">
-        <p style="text-align: center"><h1>USFIRST</h1></p>
+        <h1 style="text-align: center">USFIRST</h1>
         <br>
         <h1 class="lead">What is FIRST? </h1>
         <p>FIRST is an international organization, which organizes educational competitions for students of all ages.
