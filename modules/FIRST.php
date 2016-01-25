@@ -1,9 +1,3 @@
-<section class="section parallax parallax-1" id="home">
-    <div class="container">
-        <h1>USFIRST</h1>
-    </div>
-</section>
-
 <section class="section content" id="sponsors">
     <center><p><h1>USFIRST</h1></p></center>
     <br>

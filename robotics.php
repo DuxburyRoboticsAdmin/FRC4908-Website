@@ -104,8 +104,8 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
     -->
     <script src="/js/jquery-1.11.3.min.js"></script>
     <script src="/js/bootstrap.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script src="js/robotics.js"></script>
+    <script src="/js/parallax.min.js"></script>
+    <script src="/js/robotics.js"></script>
 
 
 </body>
