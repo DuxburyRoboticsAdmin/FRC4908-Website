@@ -32,6 +32,7 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
         <link rel="stylesheet" href="/css/bootstrapunited.css">
         <link rel="stylesheet" href="/css/materialdesignicons.min.css">
         <link rel="stylesheet" href="/css/robotics.css">
+        <link rel="stylesheet" href="/css/bootcards-desktop.css">
 
 </head>
 
@@ -103,8 +104,8 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
     -->
     <script src="/js/jquery-1.11.3.min.js"></script>
     <script src="/js/bootstrap.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script src="js/robotics.js"></script>
+    <script src="/js/parallax.min.js"></script>
+    <script src="/js/robotics.js"></script>
 
 
 </body>
