@@ -1,5 +1,5 @@
 <section class="section content" id="sponsors">
-    <center><p><h1>USFIRST</h1></p></center>
+    <p style="text-align: center"><h1>USFIRST</h1></p>
     <br>
 
     <div class="container">
