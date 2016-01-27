@@ -32,7 +32,7 @@
                         <div class="caption">
                             <h3>Duxbury Robotics Blog</h3>
                             <p>Check out our blog with weekly video updates and more! </p>
-                            <p><a href="http://blog.duxburyrobotics.com" class="btn btn-info" role="button">View the Blog</a></p>
+                            <p><a href="http://blog.duxburyrobotics.com" class="btn btn-primary" role="button">View the Blog</a></p>
                             <hr>
                             <h3>FIRST Robotics</h3>
                             <p>We're a FIRST Robotics team. </p>
