@@ -95,7 +95,7 @@
         <p style="text-align: center;font-size: 150%"><strong>Located in the Alden Cafeteria</strong></p>
         <br>
 
-        <p style="text-align: center"><strong>Fee is $30, payable by check or <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RBVYXH74FKW2S">online</a></strong></p>
+        <p style="text-align: center"><strong>Fee is $30, payable by check or <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RBVYXH74FKW2S" target="_blank">online</a></strong></p>
         <p style="text-align: center">Please make checks payable to <i>Duxbury Robotics</i></p>
         <br>
         <p style="text-align: center"><strong>Sign-up form located below.</strong></p>

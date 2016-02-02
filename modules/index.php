@@ -14,7 +14,7 @@
             </strong>
         </p>
         <div class="alert alert-success">
-            <p style="text-align: center">We're hosting the <i>Duxbury Robotics Camp</i> for Alden Students, learn more <a href="/camp" style="display:inline;">here</a>!</p>
+            <p style="text-align: center">We're hosting the <i>Duxbury Engineering Camp</i> for Alden Students, learn more <a href="/camp" style="display:inline;">here</a>!</p>
         </div>
         <!--<dic class="row">
             <div class="col-lg-11">
