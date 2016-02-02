@@ -68,7 +68,7 @@
                         <li><a href="/volunteer.php">Volunteer</a></li>
                     </ul>
                 </li>
-                <li class="active"><a href="/camp"><strong>Camp</strong></a></li>
+                <li class="active"><a href="/camp"><strong>DEC</strong></a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="http://blog.duxburyrobotics.com">Blog</a></li>
@@ -80,22 +80,26 @@
 <div class="container">
     <br>
     <div class="jumbotron">
-        <h1 class="lead" style="text-align: center">Duxbury Robotics Camp</h1>
-        <p>This February, the Duxbury High School Robotics Club will be holding a three day camp for Alden students to
-            teach them the basics of programming, building, and teamwork through the creation of Lego Mindstorms Ev3
-            robots. The camp will be between 2:30 and 4:30pm after school Wednesday, Thursday, and Friday on February
-            24th to 26th in the Alden School Cafeteria. The camp is open to 3rd through 5th graders. Snacks will be provided!
+        <h1 class="lead" style="text-align: center">Duxbury Engineering Camp</h1>
+        <p style="text-align: center;font-size: 150%"><strong>Open to all Alden Elementary Students</strong></p>
+        <p>This February, the Duxbury High School Robotics team will be holding a three day engineering camp for Alden
+            students. The high school Duxbury Robotics team will mentor the students as they learn the basics of robotics
+            and programming. Students will use both teamwork and creativity to build a Lego Mindstorm robot and compete
+            against their friends in an exciting and fun atmosphere. The camp will run from 2:30 to 4:30pm after school
+            February 24th through 26th in the Alden School Cafeteria. The camp is open to 3rd through 5th graders.
+            Snacks will be provided!
         </p>
         <br>
-        <p style="text-align: center"><strong>Open to all Alden Elementary Students</strong></p>
-        <p style="text-align: center"><strong>Wednesday, February 24th – Friday, February 26th, 2:30-4:30pm</strong></p>
-        <p style="text-align: center"><strong>Located in the Alden Cafeteria</strong></p>
+        <p style="text-align: center;font-size: 250%"><strong>Wednesday, February 24th – Friday, February 26th, 2:30-4:30pm</strong></p>
+        <p style="text-align: center;font-size: 250%"><strong>Space is limited</strong></p>
+        <p style="text-align: center;font-size: 150%"><strong>Located in the Alden Cafeteria</strong></p>
         <br>
-        <p style="text-align: center"><strong>Fee is $30</strong></p>
+
+        <p style="text-align: center"><strong>Fee is $30, payable by check or <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RBVYXH74FKW2S">online</a></strong></p>
         <p style="text-align: center">Please make checks payable to <i>Duxbury Robotics</i></p>
         <br>
         <p style="text-align: center"><strong>Sign-up form located below.</strong></p>
-        <p style="text-align: center">Please fill out this form for each student you're signing up.</p>
+        <p style="text-align: center">Please fill out and submit one form for each enrolled student. </p>
         <br>
         <p style="text-align: center">If you have any questions, comments or concerns please feel free to <a href="../contact.php">Contact Us</a>.</p>
     </div>
@@ -124,3 +128,13 @@
 </body>
 
 </html>
+
+
+<!--
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="RBVYXH74FKW2S">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+-->
