@@ -39,9 +39,10 @@
             <div class="row">
                 <p>Community members interested in volunteering their time can contact us at:
                     <br>
-                    <a href="mailto:robotics@duxbury.k12.ma.us?subject=Volunteer with Duxbury Robotics">robotics@duxbury.k12.ma.us</a>
-                    or<br>
-                    (781) 934-7650 x4142
+                    <a href="mailto:robotics@duxbury.k12.ma.us?subject=Volunteer with Duxbury Robotics" style="display: inline">
+                        robotics@duxbury.k12.ma.us
+                    </a>
+                    or (781) 934-7650 x4142
                 </p>
 
 
