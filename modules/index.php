@@ -13,20 +13,11 @@
                 We are currently in our third year as the team, and we now have almost 40 members.
             </strong>
         </p>
+        <!-- CAMP
         <div class="alert alert-success">
             <p style="text-align: center">We're hosting the <i>Duxbury Engineering Camp</i> for Alden Students, learn more <a href="/camp" style="display:inline;">here</a>!</p>
         </div>
-        <!--<dic class="row">
-            <div class="col-lg-11">
-                <p class="lead">Duxbury Robotics is committed to helping promote STEM education. With your help you can
-                help Duxbury Robotics become greater than its previous years. </p>
-                <button href="/about.php" class="btn btn-success btn-lg pull-right">Learn More</button>
-            </div>
-        </dic>
-
-        <br>
-        <hr>-->
-
+        -->
         <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail">
