@@ -33,10 +33,12 @@
             </div>
             <div class="col-md-7">
                 <p class="lead">
-                    <strong>AirCycler</strong> is one of the major benefactors of our robotics team.. Aircycler is a
-                    trademark company of Lipidex. They design and manufacture of air circulators. That they believe will
-                    save homeowners lots of of money. One scenario that they described was that putting these circulators
-                    near oil furnaces in the winter will allow homeowners not have to waste heat to circulate fumes out.
+                    <strong>AirCycler®</strong> is a Marshfield, Massachusetts-based electronic design and manufacturing
+                    company that develops ventilation systems for residential use. As newer homes are built tighter and
+                    more efficiently, it is important that healthy indoor air quality is maintained by regularly bringing
+                    in a controlled, measured amount of fresh air. AirCycler ventilation products are developed with
+                    innovative algorithms and efficient designs to introduce fresh air to the home without compromising
+                    energy efficiency.
                 </p>
             </div>
         </div>
