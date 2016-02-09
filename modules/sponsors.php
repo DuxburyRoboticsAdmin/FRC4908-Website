@@ -13,11 +13,12 @@
         <div class="row featurette">
             <div class="col-md-7">
                 <p class="lead">
-                    <strong>PTC</strong> is one of the major financial benefactors of our robotics team. PTC is one of the world's fastest
-                    and largest growing technology companies. Their work has helped bring the world into almost another
-                    industrial revolution. They have been making breakthroughs in technology and engineering since 1985.
-                    Helping equip companies with high tech equipment in everything from aerospace to defense. PTC work is
-                    around the globe helping more than 28000 companies come into a new era of technology.
+                    <strong>PTC</strong> is one of the major financial benefactors of our robotics team. PTC is one of
+                    the world's fastest and largest growing technology companies. Their work has helped bring the world
+                    closer and closer to another industrial revolution, and they have been making breakthroughs in
+                    technology and engineering since 1985. They’ve helped to equip several influential companies with
+                    high tech equipment in everything from aerospace to defense. PTC’s work spans the entire globe,
+                    helping more than 28,000 companies come into the newest era of technology.
                 </p>
             </div>
             <div class="col-md-5">
@@ -48,10 +49,12 @@
         <div class="row featurette">
             <div class="col-md-7">
                 <p class="lead">
-                    <strong>Goodrich Lumber</strong> is one of the major benefactors of raw materials for us. The give use large amounts
-                    of plywood and 4x4 to help us build the game pieces each year. Goodrich lumber has been offering
-                    high quality lumber, hardware, doors, and windows to all of its customers. They also offer help with
-                    construction and framing. With expert equipment that make their company stand out from the rest.
+                    <strong>Goodrich Lumber</strong> is one of the major donors of raw materials for us.
+                    They have given us large amounts of plywood and 4-by-4s  to help us build various game pieces each year.
+                    Goodrich lumber offers high quality lumber, hardware, doors, and windows to all of its customers, as
+                    well as helping with construction and framing. Their expert equipment and exceptional professionalism
+                    make their company stand out from the rest.
+
                 </p>
             </div>
             <div class="col-md-5">
@@ -67,9 +70,9 @@
             </div>
             <div class="col-md-7">
                 <p class="lead">
-                    <strong>The Duxbury Education Foundation (DEF)</strong> is one of the major benefactors of our robotics team so here
-                    is some information about them. This organization works alongside the schools in duxbury to plan
-                    events. Their goals are to bring the community together to become a close group.
+                    <strong>The Duxbury Education Foundation (DEF)</strong> works alongside the Duxbury Public Schools to
+                    plan events and help the community come together to form a close group. Without their contributions
+                    each year, Duxbury Robotics would not be able to compete in any of the FIRST competitions.
                 </p>
             </div>
         </div>
@@ -79,10 +82,10 @@
         <div class="row featurette">
             <div class="col-md-7">
                 <p class="lead">
-                    <strong>F. H. Peterson</strong> is a metal manufacturing company that mainly works with government contracts. For the
-                    2016 robot they’ve offered to help us CNC parts and even the chassis! F. H. Peterson is a huge
-                    company that has multiple contracts with the military and NASA.  They have offered to build lots of
-                    the parts for our robot.  This will allow us to be make a robot that will pass all the game defenses.
+                    <strong>F. H. Peterson</strong> is a metal manufacturing company that mainly works with government,
+                    military, and NASA contracts. For the 2016 robot, they helped us create CNC parts and even the chassis!
+                    This allowed us to make a robot capable of clearing all of the game defenses.
+
                 </p>
             </div>
             <div class="col-md-5">
