@@ -18,6 +18,12 @@
             <p style="text-align: center">We're hosting the <i>Duxbury Engineering Camp</i> for Alden Students, learn more <a href="/camp" style="display:inline;">here</a>!</p>
         </div>
         -->
+
+        <!-- BOOSTER
+        <div class="alert alert-success">
+            <p style="text-align: center">Want some <strong>Duxbury Robotics Swag></strong>? <a href="http://booster.com">CLICK HERE!</a></p>
+        </div>
+        -->
         <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail">

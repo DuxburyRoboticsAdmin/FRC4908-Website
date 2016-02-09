@@ -90,7 +90,7 @@
             Snacks will be provided!
         </p>
         <br>
-        <p style="text-align: center;font-size: 250%"><strong>Wednesday, February 24th – Friday, February 26th, 2:30-4:30pm</strong></p>
+        <p style="text-align: center;font-size: 250%"><strong>Wednesday, March 9th – Friday, March 11th, 2:30-4:30pm</strong></p>
         <p style="text-align: center;font-size: 250%"><strong>Space is limited</strong></p>
         <p style="text-align: center;font-size: 150%"><strong>Located in the Alden Cafeteria</strong></p>
         <br>
