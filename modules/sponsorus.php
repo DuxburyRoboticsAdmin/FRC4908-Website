@@ -86,7 +86,7 @@
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <a class="btn btn-success btn-lg" href="/contact.php" data-toggle="dropdown" role="button">Get in Touch </a>
+                    <a href="/contact.php" class="btn btn-success btn-lg" role="button">Get in Touch </a>
                     <br>
                     <a class="btn btn-info btn-lg" role="button" href="/volunteer.php">Volunteer</a>
                     <br>
