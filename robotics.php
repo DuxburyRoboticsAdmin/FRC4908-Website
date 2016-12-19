@@ -63,7 +63,7 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
                         <li><a href="/robots.php">Robots</a> </li>
                         <li><a href="/gallery.php">Gallery</a> </li>-->
                         <li><a href="/about.php">About</a> </li>
-                        <li><a href="/contact.php">Contact Us</a> </li>
+                        <li><a href="/contact">Contact Us</a> </li>
                     </ul>
                 </li>
                 <li class="dropdown">
