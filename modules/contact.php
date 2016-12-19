@@ -1,7 +1,16 @@
 <section class="section content" id="contact">
     <div class="container center-block" style="text-align: center">
         <h1 class="">Contact info</h1>
-        <br>
+		<br>
+        <h2>Matt Files, Mentor</h2>
+		<address>
+            <span class="mdi mdi-phone"></span> (781) 934-7650 x4142<br>
+            <br>
+            <a href="mailto:mfiles@duxbury.k12.ma.us"> mfiles@duxbury.k12.ma.us</a>
+        </address>
+		<br>
+		<br>
+		<h2>General Contact</h2>
         <address>
             <strong>Duxbury High School</strong><br>
             <strong>Attn: Duxbury Robotics/Matt Files</strong><br>
@@ -13,6 +22,7 @@
             <a href="mailto:robotics@duxbury.k12.ma.us"> robotics@duxbury.k12.ma.us</a>
         </address>
         <br>
+	
         <div class="col-md-4"></div>
         <div class="col-md-4">
             <p><a class="btn btn-success btn-md" role="button" style="background-color: #1a5322;border: none" href="/sponsor.php">Sponsor Us</a> </p>
