@@ -1,6 +1,6 @@
 <section class="section parallax parallax-sponsor" id="home">
     <div class="container">
-        <h1>Sponsors</h1>
+        <h1 style="font-size: 140px;">Sponsor Us</h1> <!-- Changed font side to make Sponsor Us fit.  -->
     </div>
 </section>
 
