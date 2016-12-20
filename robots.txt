@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /css
+Disallow: /js
+Disallow: /fonts
+Disallow: /modules
+Disallow: /robotics.php
+Disallow: /test
+Disallow: /README.md
