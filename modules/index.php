@@ -36,7 +36,7 @@
                             <hr>
                             <h3>FIRST Robotics</h3>
                             <p>We're a FIRST Robotics team. </p>
-                            <p><a href="FIRST.php" class="btn btn-primary" role="button">Learn More</a></p>
+                            <p><a href="FIRST" class="btn btn-primary" role="button">Learn More</a></p>
                         </div>
                     </center>
                 </div>
@@ -61,11 +61,11 @@
                         <div class="caption">
                             <h3>Our sponsors</h3>
                             <p>Power to the team. </p>
-                            <p><a href="sponsors.php" class="btn btn-primary" role="button">Learn More</a></p>
+                            <p><a href="sponsors" class="btn btn-primary" role="button">Learn More</a></p>
                             <hr>
                             <h3>Sponsor Us </h3>
                             <p>Robotics is expensive. We operate on a tight budget. With your help, we can achieve so much more.</p>
-                            <p><a href="sponsorus.php" class="btn btn-primary" role="button">Sponsor Us</a></p>
+                            <p><a href="sponsorus" class="btn btn-primary" role="button">Sponsor Us</a></p>
                         </div>
                     </center>
                 </div>
