@@ -86,11 +86,11 @@
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <a href="/contact.php" class="btn btn-success btn-lg" role="button">Get in Touch </a>
+                    <a href="/contact" class="btn btn-success btn-lg" role="button">Get in Touch </a>
                     <br>
-                    <a class="btn btn-info btn-lg" role="button" href="/volunteer.php">Volunteer</a>
+                    <a class="btn btn-info btn-lg" role="button" href="/volunteer">Volunteer</a>
                     <br>
-                    <a class="btn btn-warning btn-lg" role="button" href="/donate.php">Donate</a>
+                    <a class="btn btn-warning btn-lg" role="button" href="/donate">Donate</a>
                     <br>
                 </div>
             </div>

@@ -58,27 +58,24 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
                 <li class="dropdown">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Team <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <!--<li><a href="/team.php">Meet The Team</a></li>
-                        <li><a href="/alumni.php">Alumni</a></li>
-                        <li><a href="/robots.php">Robots</a> </li>
-                        <li><a href="/gallery.php">Gallery</a> </li>-->
-                        <li><a href="/about.php">About</a> </li>
+                        <!--<li><a href="/robots">Robots</a> </li>-->
+                        <li><a href="/about">About</a> </li>
                         <li><a href="/contact">Contact Us</a> </li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sponsor <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/sponsors.php">Sponsors</a> </li>
-                        <li><a href="/sponsorus.php">Sponsor Us</a> </li>
+                        <li><a href="/sponsors">Sponsors</a> </li>
+                        <li><a href="/sponsorus">Sponsor Us</a> </li>
                     </ul>
                 </li>
                 <!--<li><a class="nav-link" href="/events.php">Events</a></li>-->
                 <li class="dropdown">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/donate.php">Donate</a></li>
-                        <li><a href="/volunteer.php">Volunteer</a></li>
+                        <li><a href="/donate">Donate</a></li>
+                        <li><a href="/volunteer">Volunteer</a></li>
                     </ul>
                 </li>
             </ul>
