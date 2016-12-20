@@ -19,10 +19,10 @@
         </div>
         -->
 
-        <!-- BOOSTER 
+        <!-- BOOSTER -->
         <div class="alert alert-success">
-            <p style="text-align: center">Want some awesome <strong>Duxbury Robotics Swag? <a href="http://booster.com/roboticsduxbury"  style="display: inline">CLICK HERE</a>!</strong></p>
-        </div>-->
+            <p style="text-align: center">Want some awesome <strong>Duxbury Robotics Swag? <a href="http://booster.com/4908"  style="display: inline">CLICK HERE</a>!</strong></p>
+        </div>
 
         <div class="row">
             <div class="col-md-4">
