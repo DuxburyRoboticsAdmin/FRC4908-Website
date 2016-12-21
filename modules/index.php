@@ -21,7 +21,8 @@
 
         <!-- BOOSTER -->
         <div class="alert alert-success">
-            <p style="text-align: center">Want some awesome <strong>Duxbury Robotics Swag? <a href="http://booster.com/4908"  style="display: inline">CLICK HERE</a>!</strong></p>
+            <!--This is a murge fix. We take precident over this. -->
+            <p style="text-align: center">Want some awesome <strong>Duxbury Robotics Swag? <a href="http://booster.com/4908"  style="display: inline" target="_blank">CLICK HERE</a>!</strong></p>
         </div>
 
         <div class="row">
