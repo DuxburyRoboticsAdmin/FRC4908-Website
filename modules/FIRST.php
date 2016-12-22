@@ -22,7 +22,7 @@
         <br>
         <p>
 
-        <p style="font-size: 80%"><sup>1</sup> - USFirst.org/RoboticsPrograms/FRC</p>
+        <p style="font-size: 80%"><sup>1</sup> - <a href="http://www.firstinspires.org/robotics/frc" style="display: inline;font-size: 90%">firstinspires.org/robotics/FRC</a></p>
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4">
@@ -32,7 +32,7 @@
                         <div class="caption">
                             <h3>For More Information</h3>
                             <p>Visit the FIRST website.</p>
-                            <p><a href="http://usfirst.org/roboticsprograms/frc" class="btn btn-primary" role="button">Learn More</a></p>
+                            <p><a href="http://www.firstinspires.org/" class="btn btn-primary" role="button">Learn More</a></p>
                         </div>
                     </center>
                 </div>

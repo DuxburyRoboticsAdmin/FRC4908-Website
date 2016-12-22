@@ -1,3 +1,3 @@
 <?php
-$module = basename(__FILE__, '.php');
+$module = basename('home');
 include_once('robotics.php');
