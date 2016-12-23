@@ -13,11 +13,15 @@
                 We are currently in our third year as the team, and we now have almost 40 members.
             </strong>
         </p>
-        <!-- CAMP
+
+        <?php
+
+        if($camp) {
+            echo '
         <div class="alert alert-success">
-            <p style="text-align: center">We're hosting the <i>Duxbury Engineering Camp</i> for Alden Students, learn more <a href="/camp" style="display:inline;">here</a>!</p>
-        </div>
-        -->
+            <p style="text-align: center">We\'re hosting the <i>Duxbury Engineering Camp</i> for Alden Students, learn more <a href="/camp" style="display:inline;">here</a>!</p>
+        </div>';
+        } ?>
 
         <!-- BOOSTER -->
         <div class="alert alert-success">

@@ -5,6 +5,9 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
     header('Location: http://git.duxburyrobotics.com:81');
 }
 
+//Are we including camp in the nav?
+$camp = false;
+
 ?>
 
 <!DOCTYPE html>
@@ -44,7 +47,7 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
 <nav class="navbar navbar-default" roll="navigation">
     <div class="container-fluid navbar-static-top" id="navfluid"
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+        <div class="navbar-header" style="position: relative">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigationbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -80,6 +83,13 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
                     </ul>
                 </li>
                 <li><a href="/contact">Contact Us</a> </li>
+                <?
+                //Shal we include the camp in the nav?
+
+                if($camp || $module == 'camp')
+                    include_once('modules/camp_nav.php');
+
+                ?>
             </ul>
             <!--<ul class="nav navbar-nav navbar-right">
                 <li><a href="http://blog.duxburyrobotics.com">Blog</a></li>
@@ -88,25 +98,31 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
     </div>
 </nav>
 
+<!--
+    Content
+-->
+
 <?php require_once "modules/$module.php"; ?>
 
-    <footer>
-        <hr />
-        <div class="container">
-            <p class="">Copyright &copy; Duxbury Robotics 2013-2016 | <a href="http://admin.duxburyrobotics.com/"><span class="mdi mdi-speedometer"></span> Administration</a> </p>
-            <p></p>
-        </div>
-    </footer>
+<!--
+    Footer
+-->
 
-    <!--
-        JavaScript
-    -->
-    <script src="/js/jquery-1.11.3.min.js"></script>
-    <script src="/js/bootstrap.js"></script>
-    <script src="/js/parallax.min.js"></script>
-    <script src="/js/robotics.js"></script>
+<footer>
+    <hr />
+    <div class="container">
+        <p class="">Copyright &copy; Duxbury Robotics 2013-2016 | <a href="http://admin.duxburyrobotics.com/"><span class="mdi mdi-speedometer"></span> Administration</a> </p>
+        <p></p>
+    </div>
+</footer>
+
+<!--
+    JavaScript
+-->
+<script src="/js/jquery-1.11.3.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/parallax.min.js"></script>
+<script src="/js/robotics.js"></script>
 
 
-</body>
-
-</html>
+</body></html>
