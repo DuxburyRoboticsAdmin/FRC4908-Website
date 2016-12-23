@@ -37,6 +37,14 @@ $(function(){   /** frc */
     });
 });
 
+$(function() {
+    /** frc second Parallax (robots)*/
+    $('.parallax-FIRST-FRC-robots').parallax({
+        imageSrc: '/img/4908-14-Robot.JPG'
+    });
+});
+
+
 $(function(){ //under constuction    /** ftc */
     $('.parallax-FIRST-FTC').parallax({
         imageSrc: '/img/teamPhoto.jpeg'
@@ -45,7 +53,8 @@ $(function(){ //under constuction    /** ftc */
 
 $(function(){   /** fll */
     $('.parallax-FIRST-FLL').parallax({
-        imageSrc: '/img/teamPhoto.jpeg'
+        imageSrc: '/img/fll_robot.jpg'
+        //imageSrc: '/img/fll_team_working.jpg'
     });
 });
 
