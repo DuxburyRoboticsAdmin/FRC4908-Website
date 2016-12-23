@@ -41,19 +41,19 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
     <?php include_once("js/analyticstracking.php") ?>
 <!--/Google tracking -->
 
-<nav class="navbar navbar-default">
-    <div class="container-fluid  navbar-static-top">
+<nav class="navbar navbar-default" roll="navigation">
+    <div class="container-fluid navbar-static-top" id="navfluid"
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigationbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-        </div>
-        <div class="collapse navbar-collapse">
-
             <a href="/" class="navbar-brand">Duxbury Robotics</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navigationbar">
+
             <ul class="nav navbar-nav">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></a>
