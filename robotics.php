@@ -5,6 +5,8 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
     header('Location: http://git.duxburyrobotics.com:81');
 }
 
+echo '<!-- '.$module.' -->';
+
 //Are we including camp in the nav?
 $camp = false;
 
