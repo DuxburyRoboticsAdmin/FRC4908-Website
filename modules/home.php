@@ -9,8 +9,8 @@
     <div class="container">
         <p class="blurb">
             <strong>
-                We are the Duxbury Robotics team, and each year we participate in the FIRST Robotics Competition as Team 4908.
-                We are currently in our third year as the team, and we now have almost 40 members.
+                We are the Duxbury Robotics team, and each year we participate in the FIRST Robotics Competition as Team 4908 and support FTC and FLL teams.
+                We are currently in our Fourth year as a team; we now have over 50 registered members.
             </strong>
         </p>
 
