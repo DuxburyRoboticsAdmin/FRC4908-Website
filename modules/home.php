@@ -35,12 +35,12 @@
                     <img src="/img/teambanner.JPG">
                     <center>
                         <div class="caption">
-                            <h3>Duxbury Robotics Blog</h3>
-                            <p>Check out our blog with weekly video updates and more! </p>
-                            <p><a href="http://blog.duxburyrobotics.com" class="btn btn-primary" role="button">View the Blog</a></p>
+                            <h3>FIRST Robotics Compition</h3>
+                            <p>Check out our FRC team! There's a whole bunch of robots there. </p>
+                            <p><a href="/FIRST/FRC" class="btn btn-primary" role="button">FRC Team</a></p>
                             <hr>
-                            <h3>FIRST Robotics</h3>
-                            <p>We're a FIRST Robotics team. </p>
+                            <h3>What is FIRST?</h3>
+                            <p>FIRST is a international non-profit organisation that promotes STEM education.  </p>
                             <p><a href="/FIRST" class="btn btn-primary" role="button">Learn More</a></p>
                         </div>
                     </center>
