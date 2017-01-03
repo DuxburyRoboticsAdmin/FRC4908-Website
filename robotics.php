@@ -79,9 +79,9 @@ if ($_SERVER['SERVER_NAME'] == "git.duxburyrobotics.com")
                     </ul>
                 </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
+            <!--<ul class="nav navbar-nav navbar-right">
                 <li><a href="http://blog.duxburyrobotics.com">Blog</a></li>
-            </ul>
+            </ul>--> <!-- BLOG -->
         </div>
     </div>
 </nav>
