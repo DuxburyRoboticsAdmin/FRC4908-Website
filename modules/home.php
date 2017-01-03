@@ -1,6 +1,35 @@
+<style>
+    /*
+        This is here because there is two words here, not 1. I will move this eventualy I just needed this to do a lot of
+        testing and stuff. Please do not move this for me.
+     */
+    section.section.parallax h1
+    {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 75px;
+        line-height: 110px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    @media all and (min-width: 960px)
+    {
+        section.section.parallax h1
+        {
+            font-size: 100px;
+            line-height: 125px;
+            text-align: center;
+        }
+    }
+</style>
+
+
+
 <section class="section parallax parallax-index" id="home">
     <div class="container">
-        <h1>Team 4908</h1>
+        <h1>Duxbury<br>Robotics</h1>
     </div>
 </section>
 
