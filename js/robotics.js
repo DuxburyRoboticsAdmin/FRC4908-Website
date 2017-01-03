@@ -48,7 +48,7 @@ $(function(){
 
     /** ftc */
     $('.parallax-FIRST-FTC').parallax({
-        imageSrc: '/img/teamPhoto.jpeg'
+        imageSrc: '/img/ftc_internet.jpg'
     });
 
     /** FLL */

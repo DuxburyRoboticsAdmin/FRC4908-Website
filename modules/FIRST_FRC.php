@@ -50,14 +50,39 @@
             <br>
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">
-                <!--<li role="presentation" class=""><a href="#love" aria-controls="home" role="tab" data-toggle="tab">2016</a></li>-->
+                <li role="presentation"><a href="#17" aria-controls="home" role="tab" data-toggle="tab">2017</a></li>
                 <li role="presentation" class="active"><a href="#16" aria-controls="home" role="tab" data-toggle="tab">2016</a></li>
-                <li role="presentation"><a href="#15" aria-controls="profile" role="tab" data-toggle="tab">2015</a></li>
-                <li role="presentation"><a href="#14" aria-controls="messages" role="tab" data-toggle="tab">2014</a></li>
+                <li role="presentation"><a href="#15" aria-controls="home" role="tab" data-toggle="tab">2015</a></li>
+                <li role="presentation"><a href="#14" aria-controls="home" role="tab" data-toggle="tab">2014</a></li>
             </ul>
 
             <!-- Tab panes -->
             <div class="tab-content">
+                <!-- 2017 -->
+                <div role="tabpanel" class="tab-pane" id="17">
+                    <h2>January 7th</h2>
+                    <br>
+                    <p>On January 7th we will find out what this years challenge will be! Please stay tuned until then! If you have any questions about the kickoff please feel free to <a href="/contact" class="inline" style="display: inline">contact us</a>! </p>
+                    <!--<div class="row">
+                        <div class="col-md-4">
+                            <img src="/img/robot1.JPG" class="image-responsive">
+                        </div>
+                        <div class="col-md-8">
+                            <p>Talk about robot and game that year. Success fail? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/VqOKzoHJDjA" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-md-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>-->
+                </div>
+
                 <!-- 2016 -->
                 <div role="tabpanel" class="tab-pane active" id="16">
                     <h2>Strong Hold</h2>
