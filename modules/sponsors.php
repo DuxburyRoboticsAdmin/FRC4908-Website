@@ -1,3 +1,10 @@
+<style>
+    .colonial img {
+        height: 150px !important;
+        /*width: 100% !important;*/
+    }
+</style>
+
 <section class="section parallax parallax-sponsor" id="home">
     <div class="container">
         <h1>Sponsors</h1>
@@ -44,6 +51,8 @@
             </div>
         </div>
 
+        <!--
+        GOODRICH LUMBER
         <hr class="featurette-divider">
 
         <div class="row featurette">
@@ -60,8 +69,10 @@
             <div class="col-md-5">
                 <a href="http://https://www.goodrichlumber.com"><img class="" src="/img/sponsor/goodrich.png"></a>
             </div>
-        </div>
+        </div> -->
 
+        <!--
+        DEF
         <hr class="featurette-divider">
 
         <div class="row featurette">
@@ -75,7 +86,7 @@
                     each year, Duxbury Robotics would not be able to compete in any of the FIRST competitions.
                 </p>
             </div>
-        </div>
+        </div> -->
 
         <hr class="featurette-divider">
 
@@ -94,6 +105,55 @@
                 <a href="http://fhpetersonmachine.com/"><img src="/img/sponsor/FHPeterson.jpg"></a>
             </div>
         </div>
+
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <p class="lead">
+                    For more than 50 years, <strong>Colonial Saw</strong> has imported Industrial Woodworking and Tool Grinding Machinery
+                    from Europe and distributed it throughout North America.  Their staff of factory trained technicians
+                    in MA & CA are responsible for installing, training, and servicing over 4,000 machines in North America
+                    ranging from single purpose saws up through Robot loading lights out CNC service centers.  Colonial Saw
+                    prides itself in its long history of recommending the right machinery automation solutions to woodworking
+                    and grinding shops and servicing them with knowledge and passion.
+
+                </p>
+            </div>
+            <div class="col-md-5">
+                <br>
+                <br>
+                <br>
+                <br>
+                <a href="http://http://csaw.com/"><img src="/img/sponsor/ColonialSawSmall.jpeg" class="colonial"></a>
+            </div>
+        </div>
+
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <p class="lead">
+                    <strong>Anchor Press</strong> has been serving the printing needs of individuals and businesses in
+                    and around the greater Boston area for over two decades. Over the years, we have grown from a small
+                    copy shop to a full-service printer, and we’ve made it our mission to provide you with exactly what
+                    you need, when you need it! Our specialties range from traditional printing to offset and large-format
+                    printing. From the graphic design phase through delivery, our print experts will work with you every
+                    step of the way, ensuring that you're entirely pleased with the finished product. Using state-of-the-art
+                    equipment to print everything from custom banners and brochures to postcards and invitations. And,
+                    with variable data printing, we can deliver products on-demand.
+
+                </p>
+            </div>
+            <div class="col-md-5">
+                <br>
+                <br>
+                <a href="http://anchorpress.com/"><img src="/img/sponsor/anchorpressSmall.jpeg"</a>
+            </div>
+        </div>
+
 
 
     </div>

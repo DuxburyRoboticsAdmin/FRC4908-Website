@@ -13,6 +13,9 @@
         <div class="container" style="align-content: center; align-items: center">
             <img class="image-responsive img-rounded" src="/img/fll_team_working.jpg" style="display: inline">
             <br>
+            <br>
+            <br>
+            <p>View more photos from the December 3rd 2016 compitition on <a href="https://goo.gl/photos/xZq6FhPwvuJAMUuFA" style="display: inline">Google Photos</a>.</p>
         </div>
 
     </div>
