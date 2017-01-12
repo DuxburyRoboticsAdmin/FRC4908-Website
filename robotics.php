@@ -93,9 +93,6 @@ $camp = false;
 
                 ?>
             </ul>
-            <!--<ul class="nav navbar-nav navbar-right">
-                <li><a href="http://blog.duxburyrobotics.com">Blog</a></li>
-            </ul>--> <!--Blog, it's abolished -->
         </div>
     </div>
 </nav>

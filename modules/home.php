@@ -38,8 +38,9 @@
     <div class="container">
         <p class="blurb">
             <strong>
-                We are the Duxbury Robotics team, and each year we participate in the FIRST Robotics Competition as Team 4908 and support FTC and FLL teams.
-                We are currently in our Fourth year as a team; we now have over 50 registered members.
+                We are the Duxbury Robotics team, and each year we participate in the FIRST Robotics Competition as Team
+                4908 winning numerous award. We support and mentor FTC and FLL teams. We are currently in our fourth year,
+                and have now grown to over 50 registered members.
             </strong>
         </p>
 
@@ -64,12 +65,12 @@
                     <img src="/img/teambanner.JPG">
                     <center>
                         <div class="caption">
-                            <h3>FIRST Robotics Compition</h3>
+                            <h3>FIRST Robotics Competition</h3>
                             <p>Check out our FRC team! There's a whole bunch of robots there. </p>
                             <p><a href="/FIRST/FRC" class="btn btn-primary" role="button">FRC Team</a></p>
                             <hr>
                             <h3>What is FIRST?</h3>
-                            <p>FIRST is a international non-profit organisation that promotes STEM education.  </p>
+                            <p>FIRST is a international non-profit Organization that promotes STEM education.  </p>
                             <p><a href="/FIRST" class="btn btn-primary" role="button">Learn More</a></p>
                         </div>
                     </center>
@@ -98,7 +99,7 @@
                             <p><a href="/sponsors" class="btn btn-primary" role="button">Learn More</a></p>
                             <hr>
                             <h3>Sponsor Us </h3>
-                            <p>Robotics is expensive. We operate on a tight budget. With your help, we can achieve so much more.</p>
+                            <p>Robotics is expensive, we operate on a tight budget. With your help, we can achieve so much more.</p>
                             <p><a href="/sponsorus" class="btn btn-primary" role="button">Sponsor Us</a></p>
                         </div>
                     </center>

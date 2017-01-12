@@ -3,7 +3,7 @@
         <h1 style="text-align: center">USFIRST</h1>
         <br>
         <h1 class="lead">What is FIRST? </h1>
-        <p>FIRST is an international organization, which organizes educational competitions for students of all ages.
+        <p>FIRST is an international organization, that organizes educational competitions for students of all ages.
             The acronym F.I.R.S.T. stands for “For Inspiration and Recognition of Science and Technology.” The organization runs
             a series of unique competitions to engage students of all ages. Through the FIRST Lego League and Junior Lego League,
             young elementary and middle school aged children are introduced to robotics as they compete in challenges designed
