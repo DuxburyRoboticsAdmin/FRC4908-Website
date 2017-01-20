@@ -32,17 +32,17 @@
             </div>
         </div>
     </div>
-
+</section>
     <br>
     <br>
 
-    <section class="section parallax parallax-FIRST-FRC-robots" id="home">
-        <div class="container">
-            <h1>Robots</h1>
-        </div>
-    </section>
+<section class="section parallax parallax-FIRST-FRC-robots" id="home">
+    <div class="container">
+        <h1>Robots</h1>
+    </div>
+</section>
 
-
+<section>
     <div class="container">
         <!-- robot tabs by year. 2014-2016 -->
         <div>
@@ -56,22 +56,15 @@
                 <li role="presentation"><a href="#14" aria-controls="home" role="tab" data-toggle="tab">2014</a></li>
             </ul>
 
+
             <!-- Tab panes -->
             <div class="tab-content">
+
+
                 <!-- 2017 -->
                 <div role="tabpanel" class="tab-pane active" id="17">
-                    <h2>Seam Works</h2>
+                    <h2>SteamWorks</h2>
                     <br>
-                    <p>On January 7th we found out what this years challenge will be! This years challenge looks awesome and we look forward to working on this robot. If you would like to help or find out more please feel free to <a href="/contact" class="inline" style="display: inline">contact us</a>! </p>
-
-                    <div class="row">
-                        <div class="col-md-8">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/VqOKzoHJDjA" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                        <div class="""col-md-4">
-                            <p>SteamWorks is a unique and difficult challenge.  One of the goal is to score fuel into boilers, in a low or high goal to increase steam pressure.  Another goal is to carry gears to an airship located in the middle of the field to get four different rotors operating for extra points. If all airship rotors are spinning and the boiler steam pressure is at a maximum extra points will be awarded to that alliance. The unique feature of this game is that there will be, for the first time, two human players in each of the airships. </p>
-                        </div>
-                    </div>
                     <!--<div class="row">
                         <div class="col-md-4">
                             <img src="/img/robot1.JPG" class="image-responsive">
@@ -79,22 +72,23 @@
                         <div class="col-md-8">
                             <p>Talk about robot and game that year. Success fail? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         </div>
-                    </div>
-                    <br>
-                    <br>
+                    </div>-->
+                    <p>On January 7th we found out what this years challenge will be! This years challenge looks awesome and we look forward to working on this robot. If you would like to help or find out more please feel free to <a href="/contact" class="inline" style="display: inline">contact us</a>! </p>
+
                     <div class="row">
                         <div class="col-md-8">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/VqOKzoHJDjA" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/EMiNmJW7enI" frameborder="0" allowfullscreen></iframe>
                         </div>
-                        <div class="col-md-4">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="""col-md-4">
+                            <p>SteamWorks is a unique and difficult challenge.  One of the goal is to score fuel into boilers, in a low or high goal to increase steam pressure.  Another goal is to carry gears to an airship located in the middle of the field to get four different rotors operating for extra points. If all airship rotors are spinning and the boiler steam pressure is at a maximum extra points will be awarded to that alliance. The unique feature of this game is that there will be, for the first time, two human players in each of the airships. </p>
                         </div>
-                    </div>-->
+                    </div>
                 </div>
+
 
                 <!-- 2016 -->
                 <div role="tabpanel" class="tab-pane" id="16">
-                    <h2>Strong Hold</h2>
+                    <h2>StrongHold</h2>
                     <br>
                     <div class="row">
                         <div class="col-md-4">
@@ -115,6 +109,7 @@
                         </div>
                     </div>
                 </div>
+
 
                 <!-- 2015 -->
                 <div role="tabpanel" class="tab-pane fade" id="15">
@@ -167,13 +162,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div> <!-- ./2014 -->
 
+
+            </div> <!-- ./tab pains -->
         </div>
-
-
-
-
-    </div>
+    </div> <!-- ./container -->
 </section>

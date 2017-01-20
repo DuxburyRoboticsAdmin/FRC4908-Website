@@ -63,30 +63,30 @@ $camp = false;
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/FIRST">What is FIRST?</a> </li>
-                        <li><a href="/FIRST/FRC">FIRST Robotics Competition</a> </li>
-                        <li><a href="/FIRST/FTC">FIRST Tech. Challenge</a> </li>
-                        <li><a href="/FIRST/FLL">FIRST Lego League</a> </li>
+                        <li id="FIRST"><a href="/FIRST">What is FIRST?</a> </li>
+                        <li id="FRC"><a href="/FIRST/FRC">FIRST Robotics Competition</a> </li>
+                        <li id="FTC"><a href="/FIRST/FTC">FIRST Tech. Challenge</a> </li>
+                        <li id="FLL"><a href="/FIRST/FLL">FIRST Lego League</a> </li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sponsor <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/sponsors">Sponsors</a> </li>
-                        <li><a href="/sponsorus">Sponsor Us</a> </li>
+                        <li id="sponsors"><a href="/sponsors">Sponsors</a> </li>
+                        <li id="sponsorus"><a href="/sponsorus">Sponsor Us</a> </li>
                     </ul>
                 </li>
                 <!--<li><a class="nav-link" href="/events.php">Events</a></li>-->
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contribute <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/donate">Donate</a></li>
-                        <li><a href="/volunteer">Volunteer</a></li>
+                        <li id="donate"><a href="/donate">Donate</a></li>
+                        <li id="volunteer"><a href="/volunteer">Volunteer</a></li>
                     </ul>
                 </li>
-                <li><a href="/contact">Contact Us</a> </li>
+                <li id="contact"><a href="/contact">Contact Us</a> </li>
                 <?
-                //Shal we include the camp in the nav?
+                //Shall we include the camp in the nav?
 
                 if($camp || $module == 'camp')
                     include_once('modules/camp_nav.php');

@@ -9,10 +9,35 @@
  */
 $(function(){
 
+
+    /**
+     *  Activte Nav Fn()
+     */
+
+    var path = window.location.pathname.substring(window.location.pathname.lastIndexOf("/")+1, window.location.pathname.size);
+
+    //window.alert(window.location.pathname + "\n" + path); //DEBUG
+
+
+    try {
+        document.getElementById(path).classList.add('active');
+    } catch (e) { //if we find a page that does not have that directory we will catch that exception and move on in life.
+        //window.alert(e); //DEBUG
+    }
+
+
+
+    /**
+     * Parallax
+     *
+     * Applys the image to the parallax CSS for the page.
+     */
+
     /** index */
     $('.parallax-index').parallax({
         imageSrc: '/img/4908-14-Robot.JPG'
     });
+
     /** about */
     $('.parallax-about').parallax({
         imageSrc: '/img/RedAlliance.JPG'
@@ -56,5 +81,6 @@ $(function(){
         imageSrc: '/img/fll_robot.jpg'
         //imageSrc: '/img/fll_team_working.jpg'
     });
+
 });
 
