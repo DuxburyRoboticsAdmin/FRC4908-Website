@@ -3,7 +3,7 @@
         <h1 style="text-align: center">USFIRST</h1>
         <br>
         <h1 class="lead">What is FIRST? </h1>
-        <p>FIRST is an international organization, which organizes educational competitions for students of all ages.
+        <p>FIRST is an international organization, that organizes educational competitions for students of all ages.
             The acronym F.I.R.S.T. stands for “For Inspiration and Recognition of Science and Technology.” The organization runs
             a series of unique competitions to engage students of all ages. Through the FIRST Lego League and Junior Lego League,
             young elementary and middle school aged children are introduced to robotics as they compete in challenges designed
@@ -22,7 +22,7 @@
         <br>
         <p>
 
-        <p style="font-size: 80%"><sup>1</sup> - USFirst.org/RoboticsPrograms/FRC</p>
+        <p style="font-size: 80%"><sup>1</sup> - <a href="http://www.firstinspires.org/robotics/frc" style="display: inline;font-size: 90%">firstinspires.org/robotics/FRC</a></p>
         <div class="row">
             <div class="col-md-4"></div>
             <div class="col-md-4">
@@ -32,7 +32,7 @@
                         <div class="caption">
                             <h3>For More Information</h3>
                             <p>Visit the FIRST website.</p>
-                            <p><a href="http://usfirst.org/roboticsprograms/frc" class="btn btn-primary" role="button">Learn More</a></p>
+                            <p><a href="http://www.firstinspires.org/" class="btn btn-primary" role="button">Learn More</a></p>
                         </div>
                     </center>
                 </div>
