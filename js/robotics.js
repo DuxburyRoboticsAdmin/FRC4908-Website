@@ -19,6 +19,9 @@ $(function(){
     //window.alert(window.location.pathname + "\n" + path); //DEBUG
 
 
+    path.replace('/', ''); //remove the / in the thingie
+
+
     try {
         document.getElementById(path).classList.add('active');
     } catch (e) { //if we find a page that does not have that directory we will catch that exception and move on in life.
