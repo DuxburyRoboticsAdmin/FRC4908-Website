@@ -14,9 +14,21 @@ $(function(){
      *  Activte Nav Fn()
      */
 
-    var path = window.location.pathname.substring(window.location.pathname.lastIndexOf("/")+1, window.location.pathname.size);
+    var longPath = window.location.pathname;
+    var longPath2 = window.location.pathname;
 
-    //window.alert(window.location.pathname + "\n" + path); //DEBUG
+    //window.alert(longPath.lastIndexOf('/') + " " + longPath.length) //DEBUG
+
+
+    if(longPath.lastIndexOf('/') == longPath.length-1) {
+        longPath2 = longPath.substring(0, longPath.length-1);
+        //window.alert(longPath2); //DEBUG
+    }
+
+
+    var path = longPath2.substring(longPath2.lastIndexOf("/")+1, longPath2.size);
+
+    //window.alert(window.location.pathname + "\n"  + longPath2 + "\n" + path); //DEBUG
 
 
     try {
