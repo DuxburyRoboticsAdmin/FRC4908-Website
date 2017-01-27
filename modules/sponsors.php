@@ -110,6 +110,13 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
+            <div class="col-md-5">
+                <br>
+                <br>
+                <br>
+                <br>
+                <a href="http://http://csaw.com/"><img src="/img/sponsor/ColonialSawSmall.jpeg" class="colonial"></a>
+            </div>
             <div class="col-md-7">
                 <p class="lead">
                     For more than 50 years, <strong>Colonial Saw</strong> has imported Industrial Woodworking and Tool Grinding Machinery
@@ -121,13 +128,7 @@
 
                 </p>
             </div>
-            <div class="col-md-5">
-                <br>
-                <br>
-                <br>
-                <br>
-                <a href="http://http://csaw.com/"><img src="/img/sponsor/ColonialSawSmall.jpeg" class="colonial"></a>
-            </div>
+
         </div>
 
 
@@ -150,8 +151,27 @@
             <div class="col-md-5">
                 <br>
                 <br>
-                <a href="http://anchorpress.com/"><img src="/img/sponsor/anchorpressSmall.jpeg"</a>
+                <a href="http://anchorpress.com/"><img src="/img/sponsor/anchorpressSmall.jpeg"></a>
             </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-5">
+                <a href="http://Lizbone.com/"><img src="/img/sponsor/lizbone.jpg" width="75%"></a>
+            </div>
+            <div class="col-md-7">
+                <p class="lead">
+                    <strong>Liz Bone Realty Group</strong> is a local real estate agent that help helped buy and sell many
+                    of the houses in the Shoth Shore area. Based in Duxbury Mass. she is one of the largest realtors in the area.
+                    If you are looking to buy or sell on the South Shore, give Liz a call. Liz and her team work diligently
+                    with our clients to ensure a positive home buying or selling experience and we will never stop working
+                    for you. Liz's goal is to be 'Your Real Estate Consultant for Life'! Liz also wrote a blog post about us found
+                    <a href="http://www.lizbone.com/posts/a-practical-program-for-duxbury-teens" style="display: inline">here</a>.
+                </p>
+            </div>
+
         </div>
 
 

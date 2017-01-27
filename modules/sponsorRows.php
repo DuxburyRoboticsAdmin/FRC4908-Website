@@ -20,7 +20,6 @@
     <br>
     <div class="container">
         <div class="row">
-            <div class="col-md-2"></div>
             <div class="col-md-4">
                 <br>
                 <img src="../img/sponsor/FHPeterson.jpg" width="">
@@ -28,6 +27,9 @@
             <div class="col-md-4">
                 <br>
                 <img src="../img/sponsor/anchorpress.jpg" width="50%">
+            </div>
+            <div class="col-md-4">
+                <img src="../img/sponsor/lizbone.jpg" width="60%">
             </div>
         </div>
     </div>

@@ -82,6 +82,7 @@ $camp = false;
                     <ul class="dropdown-menu">
                         <li id="donate"><a href="/donate">Donate</a></li>
                         <li id="volunteer"><a href="/volunteer">Volunteer</a></li>
+                        <li id="amazon"><a href="/amazon">Amazon Wish List</a> </li>
                     </ul>
                 </li>
                 <li id="contact"><a href="/contact">Contact Us</a> </li>
