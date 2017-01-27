@@ -12,7 +12,7 @@ $(function(){
 
     /**
      *  Activte Nav Fn()
-     */
+
 
     var longPath = window.location.pathname;
     var longPath2 = window.location.pathname;
@@ -38,7 +38,7 @@ $(function(){
     }
 
 
-
+    */
     /**
      * Parallax
      *
