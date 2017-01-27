@@ -8,7 +8,7 @@
     <div class="container">
         <h1 style="text-align: center">About us</h1>
         <div class="row">
-            <div class="col-md-4"><br><img src="../img/field.JPG" class="img-rounded img-responsive" width="180px"></div>
+            <div class="col-md-4"><br><img src="../../img/field.JPG" class="img-rounded img-responsive" width="180px"></div>
             <div class="col-md-8"><h2>Origins</h2>
                 <p>&emsp;&emsp;Founded in 2012, Duxbury Robotics started out as merely a co-curricular club. In 2014,
                     Duxbury Robotics joined FIRST Robotics and the team was officially born! Duxbury Robotics is now
@@ -22,7 +22,7 @@
         </div>
         <br>
         <div class="row">
-            <div class="col-md-4"><br><img src="../img/looking.JPG" class="img-rounded img-responsive" width="180px"></div>
+            <div class="col-md-4"><br><img src="../../img/looking.JPG" class="img-rounded img-responsive" width="180px"></div>
             <div class="col-md-8"><h2>Our Future</h2>
                 <p>&emsp;&emsp;Duxbury Robotics continues to grow and add new members each year. Over the past several years,
                     it has created a new and exciting introduction to the world of STEM for a variety of students. The team
@@ -79,7 +79,7 @@
                         <div class="col-md-8">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/EMiNmJW7enI" frameborder="0" allowfullscreen></iframe>
                         </div>
-                        <div class="""col-md-4">
+                        <div class=col-md-4">
                             <p>SteamWorks is a unique and difficult challenge.  One of the goal is to score fuel into boilers, in a low or high goal to increase steam pressure.  Another goal is to carry gears to an airship located in the middle of the field to get four different rotors operating for extra points. If all airship rotors are spinning and the boiler steam pressure is at a maximum extra points will be awarded to that alliance. The unique feature of this game is that there will be, for the first time, two human players in each of the airships. </p>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                     <br>
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="../img/2016_robot.jpg" class="image-responsive">
+                            <img src="../../img/2016_robot.jpg" class="image-responsive">
                         </div>
                         <div class="col-md-8">
                             <p>The robot for the Strong Hold game was one of our best-designed robots. You can see that there stained pieces of wood around the whole robot with our sponsor’s lazered onto it. We also had a very impressive drive system supported by good programing. On the front we had a retractable ball sucker that was very successful. With our design we were able to fit under the low bar along with being able to complete almost all of the defenses. We were also preformed many of the desired functions that are required to win at this game. </p>
@@ -118,7 +118,7 @@
                         <br>
                         <div class="row">
                             <!--<div class="col-md-4">
-                                <img src="/img/robot1.JPG" class="image-responsive">
+                                <img src="../../img/robot1.JPG" class="image-responsive">
                             </div>-->
                             <div class="">
                                 <p>Recycle Rush’s robot was a major engineering feat to get it working! There were two main objects in this game, the boxes and the cylinders. With our teeth we were able to pick up both of these items and stack them accurately. The teeth were attached to the arms that protrude from the robot to grab the game pieces. At our peak we were able to stack 5 boxes with a recycle container on top as well. Our robot’s arms moved up and down on a chain shaft controlled by a motor sims. </p>
@@ -145,7 +145,7 @@
                         <br>
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="../img/robot1.JPG" class="image-responsive">
+                                <img src="../../img/robot1.JPG" class="image-responsive">
                             </div>
                             <div class="col-md-8">
                                 <p>Arial Assist was a very competitive and fun game, for this we need to be able to move the yoga ball very quickly across the field then shot into a high goal with very good accuracy. For this we had retractable arms that connected at the top and spun to such the yoga ball into the robot. We then would pull those arms back in to store the ball. Once in position, we would spin the wheels the other way to attempt a goal.</p>
