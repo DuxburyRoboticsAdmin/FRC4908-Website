@@ -92,7 +92,7 @@
                     <br>
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="/img/2016_robot.jpg" class="image-responsive">
+                            <img src="../img/2016_robot.jpg" class="image-responsive">
                         </div>
                         <div class="col-md-8">
                             <p>The robot for the Strong Hold game was one of our best-designed robots. You can see that there stained pieces of wood around the whole robot with our sponsor’s lazered onto it. We also had a very impressive drive system supported by good programing. On the front we had a retractable ball sucker that was very successful. With our design we were able to fit under the low bar along with being able to complete almost all of the defenses. We were also preformed many of the desired functions that are required to win at this game. </p>
@@ -145,7 +145,7 @@
                         <br>
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="/img/robot1.JPG" class="image-responsive">
+                                <img src="../img/robot1.JPG" class="image-responsive">
                             </div>
                             <div class="col-md-8">
                                 <p>Arial Assist was a very competitive and fun game, for this we need to be able to move the yoga ball very quickly across the field then shot into a high goal with very good accuracy. For this we had retractable arms that connected at the top and spun to such the yoga ball into the robot. We then would pull those arms back in to store the ball. Once in position, we would spin the wheels the other way to attempt a goal.</p>
