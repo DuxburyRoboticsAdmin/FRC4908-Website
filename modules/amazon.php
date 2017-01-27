@@ -8,13 +8,24 @@
     <div class="container" style = "text-align: center;">
         <center>
             <p>If you're interested in buying a item for the Duxbury Robotics FRC Team, please feel free to choose anything from the list below. </p>
-            <p>Please send it to the address found on <a href="/contact" style="display: inline;">Contact Us</a> page.  </p>
-            <div class="row">
-                <iframe src="https://www.amazon.com/registry/wishlist/3TTGPI3JRYN39" width="100%" height="1000px" frameborder=none >
-                    <p>Can't view the Amazon Wish List? Sorry about that, it happens. Please click <a href="http://a.co/2eAQEzk" style="display: inline">here</a>! </p>
-                </iframe>
-            </div>
-            <p>Can't view the Amazon Wish List? Sorry about that, it happens. Please click <a href="http://a.co/2eAQEzk" style="display: inline">here</a>! </p>
-        </center>    <!-- /.row -->
-    </div>
+
+            <a class="btn btn-lg btn-warning" href="https://www.amazon.com/registry/wishlist/3TTGPI3JRYN39" target="_blank">Amazon Wish list</a>
+            <br>
+            <hr>
+            <br>
+            <p>Please send items to: </p>
+            <address>
+                <strong>Duxbury High School</strong><br>
+                <strong>Attn: Duxbury Robotics/Matt Files</strong><br>
+                71 Alden Street<br>
+                Duxbury, MA 02332<br>
+                United States of America<br><br>
+                <span class="mdi mdi-phone"></span> (781) 934-7650 x4142<br>
+                <br>
+                <a href="mailto:robotics@duxbury.k12.ma.us"> robotics@duxbury.k12.ma.us</a>
+            </address>
+            <p>Feel free to email us if you have any questions or concerns.</p>
+            <br>
+            </center>
+    </div><!-- /.row -->
 </section>
