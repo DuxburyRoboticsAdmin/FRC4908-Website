@@ -10,7 +10,7 @@
             <p>If you're interested in buying a item for the Duxbury Robotics FRC Team, please feel free to choose anything from the list below. </p>
             <p>Please send it to the address found on <a href="/contact" style="display: inline;">Contact Us</a> page.  </p>
             <div class="row">
-                <iframe src="http://a.co/2eAQEzk" width="100%" height="1000px" frameborder=none >
+                <iframe src="https://www.amazon.com/registry/wishlist/3TTGPI3JRYN39" width="100%" height="1000px" frameborder=none >
                     <p>Can't view the Amazon Wish List? Sorry about that, it happens. Please click <a href="http://a.co/2eAQEzk" style="display: inline">here</a>! </p>
                 </iframe>
             </div>
