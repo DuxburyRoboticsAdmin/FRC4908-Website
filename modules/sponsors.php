@@ -174,6 +174,26 @@
 
         </div>
 
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-5">
+                <a href="http://omnils.com/"><img src="/img/sponsor/omnils.jpg" class="img-responsive" style="height: 150px"></a>
+            </div>
+            <div class="col-md-7">
+                <p class="lead">
+                    <strong>OMNI</strong> Life Science has a solid grounding in orthopaedic engineering, which is enhanced
+                    by its forward-thinking culture. We have a steadfast focus on purposeful innovation and are continuously
+                    adding to and improving our products and services. We leverage advances in techniques, materials,
+                    and new understanding of anatomic and bio-mechanical data into every decision. OMNI is recognized as
+                    an innovative orthopaedic company that delivers superlative solutions that enable physicians to
+                    achieve their practice and patient care goals. Our offering of navigation robotic systems and practices,
+                    implants, and instruments, all are designed to enhance a surgeon’s ability to help their patients
+                    live active and pain-free lives.
+                </p>
+            </div>
+
+        </div>
 
 
     </div>

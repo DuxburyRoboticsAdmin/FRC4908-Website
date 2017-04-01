@@ -15,7 +15,7 @@
             <br>
             <br>
             <br>
-            <p>View more photos from the December 3rd 2016 compitition on <a href="https://goo.gl/photos/xZq6FhPwvuJAMUuFA" style="display: inline">Google Photos</a>.</p>
+            <p>View more photos from the December 3rd 2016 competition on <a href="https://goo.gl/photos/xZq6FhPwvuJAMUuFA" style="display: inline">Google Photos</a>.</p>
         </div>
 
     </div>
